@@ -1,34 +1,50 @@
 body {
   font-family: helvetica, arial, sans-serif;
   margin: 3em;
-  
-}
-img-right {
- grid-column: 1/2;
-  grid-row: 2/3;
-  border-radius: 1em;
-  border: 1px solid #09342b;
+  height: 100%;
+
 }
 
 h1 {
   color: #FFDDD2;
   font-family: "Raleway", Arial, sans-serif;
-  font-size: 30px;
+  font-size: 40px;
 }
 h2 {
   font-family: "Ubuntu", "Times New Roman", sans-serif;
-  font-size: 1.2em;
+  font-size: 1.8em;
   border-bottom: 2px solid;
+  border-width: 2px;
+ max-width: 950px;
+   margin-left: 40px;
+   margin-top: 50px;
 }
-
-
+ul {
+  margin-left: 40px;
+  font-family: "Ubuntu", "Times New Roman", sans-serif;
+  font-size: 1.4em;
+}
+img {
+  position: absolute;
+  left: 1050px;
+  top: 70px;
+  z-index: 1;
+}
 header,
 footer {
   background-color: #CD5C5C;
   color: #FFDDD2;
   display: grid;
   grid-template-columns: auto;
-  padding: 0.5em;
   border-radius: 1em;
   text-align: center;
+  padding: 2px;
 }
+
+footer { 
+  margin-top: 100px;
+}
+header {
+   
+}
+ 
