@@ -28,6 +28,7 @@ footer {
   color: #FFDDD2;
   display: grid;
   grid-template-columns: auto;
-  padding: 1em;
+  padding: 0.5em;
+  border-radius: 1em;
   text-align: center;
 }
