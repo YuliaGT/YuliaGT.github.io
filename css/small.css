@@ -27,14 +27,12 @@ ul {
 img {
   width: 150px;
   height: auto;
-  float: right;
+  
 }
 header,
 footer {
   background-color: #CD5C5C;
   color: #FFDDD2;
-  display: grid;
-  grid-template-columns: auto;
   text-align: center;
   padding: 2px;
 }
