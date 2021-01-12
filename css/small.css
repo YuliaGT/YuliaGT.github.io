@@ -17,18 +17,21 @@ h2 {
   border-width: 2px;
  max-width: 950px;
    margin-left: 40px;
-   margin-top: 50px;
+   margin-top: 150px;
 }
 ul {
   margin-left: 40px;
-  font-family: "Ubuntu", "Times New Roman", sans-serif;
+  font-family: 'Kufam', cursive;
   font-size: 1.4em;
 }
 img {
-  position: absolute;
-  left: 1050px;
-  top: 70px;
-  z-index: 1;
+  width: 150px;
+  height: auto;
+  box-shadow: 0 0 10px;
+  float: right;
+  border-radius: 5px 5px 5px 5px;
+  margin-top: -90px;
+  margin-right: 40px;
 }
 header,
 footer {
@@ -36,15 +39,14 @@ footer {
   color: #FFDDD2;
   display: grid;
   grid-template-columns: auto;
-  border-radius: 1em;
   text-align: center;
   padding: 2px;
 }
 
 footer { 
-  margin-top: 100px;
+  margin-top: 150px;
 }
-header {
-   
+
+header { 
+  margin-bottom:-100px;
 }
- 

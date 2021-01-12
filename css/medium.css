@@ -1,0 +1,13 @@
+@media only screen and (min-width: 32.5em) {
+    h1 {
+        font-size: 40px;
+      }
+      h2 {
+        font-size: 1.8em;
+      }
+      header,
+footer {
+  border-radius: 1em;
+
+}
+}
