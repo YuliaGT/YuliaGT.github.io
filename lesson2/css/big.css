@@ -1,0 +1,16 @@
+@media only screen and (min-width: 60em) {
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+        font-size: 1em;
+      }
+
+      img {
+        width: 350px;
+        height: auto;
+        
+      }
+      h2 {
+        font-size: 1.5em;
+      }
+     
+}

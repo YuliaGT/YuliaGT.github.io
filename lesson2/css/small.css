@@ -1,0 +1,72 @@
+body {
+    font-family: "Ubuntu", "Times New Roman", sans-serif;
+    margin: 3em;
+   
+  
+  }
+  main {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+  h1 {
+    color: white;
+    font-family: 'Kufam', cursive;
+    font-size: 3em;
+  }
+  h2 {
+    color: #CD5C5C;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1.5em;
+   max-width: 950px;
+   display: block;
+   margin-block-start: 1em;
+   margin-block-end: 1em;
+   margin-inline-start: 0px;
+   margin-inline-end: 0px;
+
+  }
+  h3 {
+    color: #993c3c;
+    font-family: "Raleway", Arial, sans-serif;
+    font-size: 1.3em;
+ 
+  }
+  .about {
+    color: #993c3c;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1.3em;
+ 
+  }
+  img {
+    width: 350px;
+    height: auto;
+    image-orientation: center;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+
+
+  main section {
+	margin: 0.5rem;
+    border: 1px solid #eee;
+    border-radius: 1em;
+	padding: 0 1rem;
+    background-color: #eee;
+    box-shadow: 3px 3px 3px  #CD5C5C;
+}
+  header,
+  footer {
+    background-color: #CD5C5C;
+    color: #FFDDD2;
+    text-align: center;
+    padding: 2px;
+  }
+  
+  footer { 
+    margin-top: 150px;
+  }
+  
+
+  
