@@ -1,6 +1,6 @@
 body {
     font-family: "Ubuntu", "Times New Roman", sans-serif;
-    margin: 3em;
+    margin: 2em;
    
   
   }
@@ -15,9 +15,11 @@ body {
   }
   h2 {
     color: #CD5C5C;
+    background-color: #FFDDD2;
+    padding: .5em;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 1.5em;
-   max-width: 950px;
+    text-align: center;
    display: block;
    margin-block-start: 1em;
    margin-block-end: 1em;
@@ -38,7 +40,7 @@ body {
  
   }
   img {
-    width: 350px;
+    width: 100%;
     height: auto;
     image-orientation: center;
     display: block;
@@ -62,6 +64,7 @@ body {
     color: #FFDDD2;
     text-align: center;
     padding: 2px;
+    width: 100%;
   }
   
   footer { 
