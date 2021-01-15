@@ -19,10 +19,7 @@ h2 {
   font-size: 1.5em;
 
   display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
+
 }
 h3 {
   color: #993c3c;
@@ -37,7 +34,6 @@ h3 {
 img {
   width: 100%;
   height: auto;
-  image-orientation: center;
   display: block;
   margin-left: auto;
   margin-right: auto;
