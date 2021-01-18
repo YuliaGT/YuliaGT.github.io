@@ -5,8 +5,7 @@
       h2 {
         font-size: 1.8em;
       }
-      header,
-footer {
+      header,footer {
   border-radius: 10px;
 
 }
@@ -15,4 +14,5 @@ img {
     float: right;
     margin-top: -40px;
     margin-right: 30px;
+}
 }
