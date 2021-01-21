@@ -1,0 +1,48 @@
+body {
+  font-family: "Ubuntu", "Times New Roman", sans-serif;
+  margin: 2em;
+}
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+h1 {
+  color: #093323;
+  font-family: "Kufam", cursive;
+  font-size: 3em;
+}
+
+
+header,
+footer {
+  background-color: #84cfb1;
+  color: #184232;
+  text-align: center;
+  padding: 2px;
+  max-width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  
+}
+
+footer {
+  margin-top: 150px;
+}
+nav ul{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(5em, 1fr));
+  list-style-type: none;
+  font-size: 20px;
+ 
+
+}
+nav ul li a {
+  text-decoration: none;
+
+}
+
+
+nav a:hover {
+  text-decoration: none;
+  color: white;
+}
