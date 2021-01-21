@@ -2,16 +2,24 @@ body {
   font-family: "Ubuntu", "Times New Roman", sans-serif;
   margin: 2em;
 }
-main {
-  display: grid;
-  grid-template-columns: 1fr;
-}
+
 h1 {
   color: #093323;
   font-family: "Kufam", cursive;
   font-size: 3em;
 }
-
+h2 {
+  color: #093323;
+  font-family: "Kufam", cursive;
+  font-size: 1.5em;
+  
+}
+p {
+  padding-left: 20px;
+}
+ main {
+  padding: 3em;
+ }
 
 header,
 footer {
