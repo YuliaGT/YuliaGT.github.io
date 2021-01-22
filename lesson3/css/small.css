@@ -94,15 +94,23 @@ nav a:hover {
 
 .primary {
   background-color:  #EFCDBD;
+  color: #322420;
+  padding: 12px;
 }
 .secondary {
   background-color: #774936;
+  color: #EFFFFF;
+  padding: 12px;
 }
 .accent1 {
   background-color: #FFFFFF;
+  border: 1px solid #322420;
+  padding: 12px;
 }
 .accent2{
   background-color: #322420;
+  color: #EFCDBD;
+  padding: 12px;
 }
 .colors {
   width: 100%;
@@ -116,4 +124,9 @@ nav a:hover {
 .navigation {
   background-color: #774936;
   color: white;
+  font-size: 1.1em;
+}
+a:-webkit-any-link {
+  color: #322420;
+  font-size: 1.1em;
 }
