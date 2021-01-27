@@ -1,0 +1,84 @@
+body {
+  font-family: "Lora", sans-serif;
+  margin: 3em;
+  
+}
+
+h1 {
+  color: #774936;
+  font-family: "Kufam", cursive;
+  font-size: 2em;
+}
+h2 {
+  color: #774936;
+  font-family: "Kufam", cursive;
+  font-size: 1.5em;
+  
+}
+p {
+  padding-left: 20px;
+  font-size: 1em;
+}
+ main {
+  padding: 3em;
+ }
+
+header
+{
+  background-color: #EFCDBD;
+  color: #774936;
+  text-align: center;
+  padding: 2px;
+  margin-right: auto;
+  margin-left: auto;
+  border: 1px solid #322420;
+  
+}
+
+
+
+footer {
+  background-color: #EFCDBD;
+  color: #322420;
+  text-align: center;
+  padding: 2px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 150px;
+  border: 1px solid #322420;
+  
+}
+nav ul{
+  display: block;
+  grid-template-columns: repeat(auto-fit, minmax(5em, 1fr));
+  list-style-type: none;
+  font-size: 20px;
+} 
+
+
+nav ul li a {
+  text-decoration: none;
+
+}
+
+
+nav a:hover {
+  text-decoration: none;
+  background-color: #774936;
+  color: white;
+}
+
+
+.logo-box {
+  border: none;
+  margin-right: 10px;
+}
+.navigation {
+  background-color: #774936;
+  color: white;
+  font-size: 1.1em;
+}
+a:-webkit-any-link {
+  color: #322420;
+  font-size: 1.1em;
+}
