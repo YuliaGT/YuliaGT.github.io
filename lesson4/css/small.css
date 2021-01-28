@@ -54,6 +54,7 @@ footer {
   margin-left: auto;
   margin-top: 150px;
   border: 1px solid #322420;
+  min-width: 100px;
   
 }
 nav ul{
