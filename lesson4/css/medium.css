@@ -1,0 +1,31 @@
+/* 35em is also 560px when basefont is 16px */
+@media only screen and (min-width: 35rem) {
+nav button {display: none;
+}
+nav ul {
+    display: grid;
+}
+nav ul.hide {display: grid;}
+nav ul li a {
+    text-decoration: none;
+    display: block;
+    padding: .6rem 2%;
+    color: rgba(255,255,255,0.8);
+    border: none;
+    text-align: center;
+  }
+.moto, .logo{
+    padding: 10px;
+  }
+  a:-webkit-any-link {
+    color: #EFCDBD;
+    font-size: .8em;
+    
+  }
+  a.byuilink{
+    color: #322420;
+    font-size: .8em;
+    
+  }
+
+} /*end medium */

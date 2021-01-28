@@ -3,14 +3,15 @@
   <head>
     <meta
       name="description"
-      content="The Weather site project Yulia Tanner WDD230 BYUI"
+      content="Preston Town page for The Weather site project Yulia Tanner WDD230 BYUI"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Weather site week3</title>
+    <title>Weather site week4</title>
     <meta charset="utf-8" />
 
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
     <link rel="stylesheet" href="css/large.css" />
 
     <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -26,38 +27,53 @@
   <body>
     <header>
      
-            <img
+            <img class="logo"
               src="images/icon.png"
-              width="70"
               alt="Logo image"
+              width="90";
+              height: auto;
             >
+     
+            <section class= "headings">
       <h1>Sun in Utah</h1>
+      <div class="moto">Utah always has the perfect weather</div>
+    </section>
+      
+   
+    </header>
+    <nav class="navigation">
+        <button onclick="Menu()">&#9776</button>
 
-      <nav>
-        <ul>
+        <ul id="primaryNav" class="hide">
+            
           <li><a href="../lesson3/html/index.html">Home page</a></li>
-          <li><a href="preston-4.html">Preston</a></li>
+          <li class="active"><a href="preston-4.html">Preston</a></li>
           <li><a href="#">Soda Springs</a></li>
           <li><a href="#">Fish Heaven</a></li>
           <li><a href="#">Storm Center</a></li>
           <li><a href="#">Gallery</a></li>
         </ul>
       </nav>
-    </header>
     <main>
-     
+     <h2>Preston Idaho</h2>
+<div class="content">Hero image/weather summary</div>
+<div class="content">5 day forecast</div>
+<div class="content">Article</div>
+<div class="content">Contact information</div>
     </main>
     <footer>
       <p>
         &copy;2021 | Yulia Tanner | Orem, Utah |
-        <a href="https://www.byui.edu/online">BYUI Online Learning</a>
+        <a class="byuilink" href="https://www.byui.edu/online">BYUI Online Learning</a>
       </p>
       <p>
-        Last Updated:
-        <span id="lastModified"></span>
-        <script src="../javascript.js"></script>
+        Current Date:
+        <span id="currentDate"></span>
+       
         <br />
       </p>
     </footer>
+    <script src="js/currentdate.js"></script>
+    <script src="js/javascript.js"></script>
   </body>
 </html>

@@ -7,7 +7,9 @@ body {
 h1 {
   color: #774936;
   font-family: "Kufam", cursive;
-  font-size: 2em;
+  font-size: 1.3em;
+  margin-left: auto;
+  margin-right: auto;
 }
 h2 {
   color: #774936;
@@ -22,19 +24,25 @@ p {
  main {
   padding: 3em;
  }
+ nav ul li.active a{
+  color: #fff;
+  font-size: 1em;
 
-header
-{
+}
+header {
+display: flex;
   background-color: #EFCDBD;
   color: #774936;
-  text-align: center;
   padding: 2px;
   margin-right: auto;
   margin-left: auto;
   border: 1px solid #322420;
+  align-items:center;
+  justify-content:center;
+  min-width: 200px;
+
   
 }
-
 
 
 footer {
@@ -53,32 +61,73 @@ nav ul{
   grid-template-columns: repeat(auto-fit, minmax(5em, 1fr));
   list-style-type: none;
   font-size: 20px;
+  padding: 0;
+  
 } 
 
 
 nav ul li a {
   text-decoration: none;
-
+  display: block;
+  padding: .6rem 2%;
+  color: rgba(255,255,255,0.8);
+  border-top: 1px solid rgba(0,0,0,0.3);
 }
 
-
+nav ul.hide {
+  display: none;
+}
 nav a:hover {
   text-decoration: none;
-  background-color: #774936;
+  background-color: #EFCDBD;
   color: white;
 }
 
 
-.logo-box {
-  border: none;
-  margin-right: 10px;
-}
 .navigation {
   background-color: #774936;
   color: white;
-  font-size: 1.1em;
+  font-size: .6em;
+  padding: .1rem;
+  min-width: 200px;
+  
 }
 a:-webkit-any-link {
-  color: #322420;
-  font-size: 1.1em;
+  color: #EFCDBD;
+  font-size: .7em;
+  
 }
+a.byuilink{
+  color: #322420;
+  font-size: .8em;
+  
+}
+nav button {
+  margin: .2rem 2%;
+  background-color: transparent;
+  border: none;
+  font-size: 1.9rem;
+  color: #EFCDBD;;
+}
+.content {
+  display: block;
+  margin: 10px auto;
+  border: 1px solid #322420;
+  background-color: #EFCDBD;
+  padding: 20px;
+  min-width: 100px;
+}
+.moto, .logo{
+  padding: 10px;
+}
+.moto {
+  margin-left: auto;
+  margin-right: auto; 
+}
+/*----- Clearfix: Force an Element not to collapse -----*/
+.navigation:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.span {font-weight: 700;}
