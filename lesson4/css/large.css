@@ -11,9 +11,6 @@
   .moto, .logo{
     padding: 20px;
   }
-  .logo {
-    width="90";
-  }
   a:-webkit-any-link {
     border: none;
     padding: 2px;
