@@ -3,14 +3,33 @@
     display: grid;
    
   } 
+  nav ul.hide {display: grid;}
   h1 {
     color: #774936;
     font-family: "Kufam", cursive;
     font-size: 2em;
   } 
-  .moto, .logo{
-    padding: 20px;
-  }
+  header {
+    display: flex;
+      background-color: #EFCDBD;
+      color: #774936;
+      padding: 2px;
+      margin-right: auto;
+      margin-left: auto;
+      border: 1px solid #322420;
+      align-items:center;
+      justify-content:center;
+      min-width: 200px;
+    
+      
+    }
+    body {
+      margin: 2em;
+    }
+    main {
+      padding: 1.5em;
+    }
+
   a:-webkit-any-link {
     border: none;
     padding: 2px;
@@ -23,3 +42,4 @@
     
   }
 }
+

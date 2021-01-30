@@ -5,7 +5,9 @@ nav button {display: none;
 nav ul {
     display: grid;
 }
-nav ul.hide {display: grid;}
+nav ul.hide {display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; 
+}
 nav ul li a {
     text-decoration: none;
     display: block;
@@ -14,14 +16,35 @@ nav ul li a {
     border: none;
     text-align: center;
   }
-.moto, .logo{
-    padding: 10px;
+  main {
+    padding: 1em;
+  }
+  body {
+
+    margin: 1.5em;
   }
   a:-webkit-any-link {
     color: #EFCDBD;
     font-size: .8em;
     
   }
+  nav ul li.active a {
+    font-size: .9em;
+  }
+  header {
+    display: flex;
+      background-color: #EFCDBD;
+      color: #774936;
+      padding: 2px;
+      margin-right: auto;
+      margin-left: auto;
+      border: 1px solid #322420;
+      align-items:center;
+      justify-content:center;
+      min-width: 200px;
+    
+      
+    }
   a.byuilink{
     color: #322420;
     font-size: .8em;
