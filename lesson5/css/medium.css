@@ -1,0 +1,54 @@
+/* 35em is also 560px when basefont is 16px */
+@media only screen and (min-width: 35rem) {
+nav button {display: none;
+}
+nav ul {
+    display: grid;
+}
+nav ul.hide {display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; 
+}
+nav ul li a {
+    text-decoration: none;
+    display: block;
+    padding: .6rem 2%;
+    color: rgba(255,255,255,0.8);
+    border: none;
+    text-align: center;
+  }
+  main {
+    padding: 1em;
+  }
+  body {
+
+    margin: 1.5em;
+  }
+  a:-webkit-any-link {
+    color: #EFCDBD;
+    font-size: .8em;
+    
+  }
+  nav ul li.active a {
+    font-size: .9em;
+  }
+  header {
+    display: flex;
+      background-color: #EFCDBD;
+      color: #774936;
+      padding: 2px;
+      margin-right: auto;
+      margin-left: auto;
+      border: 1px solid #322420;
+      align-items:center;
+      justify-content:center;
+      min-width: 200px;
+    
+      
+    }
+  a.byuilink{
+    color: #322420;
+    font-size: .8em;
+    
+  }
+
+} /*end medium */

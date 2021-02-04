@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta
+      name="description"
+      content="Preston Town page continued for The Weather site project Yulia Tanner WDD230 BYUI"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <title>Weather site week5</title>
+    <meta charset="utf-8" />
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kufam&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <section class="headings">
+        <div class="box1">
+          <img class="logo" src="images/icon.png" alt="Logo image" width="90" />
+        </div>
+        <div class="box2">
+          <h1>Sun in Utah</h1>
+          <p>Utah always has the perfect weather</p>
+        </div>
+      </section>
+    </header>
+    <nav class="navigation">
+      <button onclick="Menu()">&#9776;</button>
+
+      <ul id="primaryNav" class="hide">
+        <li><a href="../lesson3/html/index.html">Home page</a></li>
+        <li class="active"><a href="preston-4.html">Preston</a></li>
+        <li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Heaven</a></li>
+        <li><a href="#">Storm Center</a></li>
+        <li><a href="#">Gallery</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h2>Preston Idaho</h2>
+      <div class="hero-summary">
+        <div class="hero">
+          <img src="images/town.jpg" alt="Town picture" width="100%" />
+          <section class="summary">
+            <h3>Weather Summary</h3>
+            <p>Currently: Cloudy</p>
+            <p>Temperature: 30F</p>
+            <p>Wind: 9 mph</p>
+            <p>Humidity: 65%</p>
+          </section>
+        </div>
+      </div>
+      <div class="Forcast">
+        <h4>5 days forcast</h4>
+        <table id="forcast">
+          <tr>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+          </tr>
+          <tr>
+            <td><img src="images/clouds.png" alt="clouds" width="80" /></td>
+            <td><img src="images/snowflake.png" alt="snow" width="80" /></td>
+            <td><img src="images/snowflake.png" alt="snow" width="80" /></td>
+            <td><img src="images/sun.png" alt="sun" width="80" /></td>
+            <td><img src="images/clouds.png" alt="clouds" width="80" /></td>
+          </tr>
+          <tr>
+            <td>34 F</td>
+            <td>36 F</td>
+            <td>41 F</td>
+            <td>45 F</td>
+            <td>39 F</td>
+          </tr>
+        </table>
+      </div>
+      <br>
+      <br>
+      <div class="article">
+        <h4>Snow on a road</h4>
+        <img class="forest"
+        src="images/road.jpg" alt="clouds" width="350" />
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
+      <div class="content">Contact information</div>
+    </main>
+    <footer>
+      <p>
+        &copy;2021 | Yulia Tanner | Orem, Utah |
+        <a class="byuilink" href="https://www.byui.edu/online"
+          >BYUI Online Learning</a
+        >
+      </p>
+      <p>
+        Current Date:
+        <span id="currentDate"></span>
+
+        <br />
+      </p>
+    </footer>
+    <script src="js/currentdate.js"></script>
+    <script src="js/javascript.js"></script>
+  </body>
+</html>
