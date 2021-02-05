@@ -40,14 +40,26 @@ header {
   background-color: #efcdbd;
   color: #774936;
   min-width: 200px;
- 
+  border: 1px solid #322420;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+}
+.headings {
+  display: flex; 
+}
+.contactinfo {
+  
+  background-color: #efcdbd;
+  color:  #774936;d;
+  min-width: 200px;
+  margin-right: auto;
+  margin-left: auto;
   border: 1px solid #322420;
   align-items: center;
   justify-content: center;
 
-}
-.headings {
-  display: flex; 
+
 }
 
 footer {
@@ -59,7 +71,7 @@ footer {
   margin-left: auto;
   margin-top: 150px;
   border: 1px solid #322420;
-  min-width: 100px;
+  min-width: 200px;
 }
 nav ul {
   display: block;
@@ -139,12 +151,12 @@ nav button {
   border:  1px dashed cyan;
 } */
 .summary {
-  position: absolute;
-  top: 400px;
-  right: 60px;
+  display: block;
+  top: 500px;
+  right: 80px;
   border: 1px solid #000;
 	padding: 1.5rem;
-  box-shadow: 0 0 30px #111;
+  box-shadow: none;
  color: #322420;
  background: #efcdbd;
 
@@ -152,8 +164,12 @@ nav button {
 #forcast{
 
   border-collapse: collapse;
-  width: 50%;
+  width: 100%;
+ 
   
+}
+table {
+  display: none;
 }
 
 #forcast td, #forcast th {
@@ -169,16 +185,16 @@ nav button {
   text-align: left;
   background-color: #EFCDBD;
   color: #322420;
-}
-.Forcast {
-margin-left: 150px;
+
 }
 
+
 .forest {
-  float: right;
-  margin: 25px;
+  border-radius: 10px;
+  
   border: 1px solid #000;
   box-shadow: 0 0 30px #111;
+  width: 100%;
 } 
 .article {
   border: 1px solid #000;
@@ -186,3 +202,36 @@ margin-left: 150px;
   padding: 1.5rem;
   background-color: #EFCDBD;
 }
+.social {
+  text-align: center;
+  
+ 
+}
+.social img {
+  width: 45px;
+  margin-right: 20px;
+ 
+}
+.facebook, .youtube, .instagram {
+  border-radius: 30px;
+}
+.box4 {
+  margin: 20px;
+  margin-left: 30px;
+}
+.map {
+  border-radius: 10px;
+  width: 100%;
+  
+
+}
+div #social {
+display: none;
+}
+h4#5days {
+  display:none;
+}
+.Forcast {
+  display: none;
+}
+

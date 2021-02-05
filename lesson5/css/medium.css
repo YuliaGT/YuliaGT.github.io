@@ -1,18 +1,20 @@
 /* 35em is also 560px when basefont is 16px */
 @media only screen and (min-width: 35rem) {
-nav button {display: none;
-}
-nav ul {
+  nav button {
+    display: none;
+  }
+  nav ul {
     display: grid;
-}
-nav ul.hide {display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; 
-}
-nav ul li a {
+  }
+  nav ul.hide {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+  nav ul li a {
     text-decoration: none;
     display: block;
-    padding: .6rem 2%;
-    color: rgba(255,255,255,0.8);
+    padding: 0.6rem 2%;
+    color: rgba(255, 255, 255, 0.8);
     border: none;
     text-align: center;
   }
@@ -20,35 +22,60 @@ nav ul li a {
     padding: 1em;
   }
   body {
-
     margin: 1.5em;
   }
   a:-webkit-any-link {
-    color: #EFCDBD;
-    font-size: .8em;
-    
+    color: #efcdbd;
+    font-size: 0.8em;
   }
   nav ul li.active a {
-    font-size: .9em;
+    font-size: 0.9em;
   }
   header {
     display: flex;
-      background-color: #EFCDBD;
-      color: #774936;
-      padding: 2px;
-      margin-right: auto;
-      margin-left: auto;
-      border: 1px solid #322420;
-      align-items:center;
-      justify-content:center;
-      min-width: 200px;
-    
-      
-    }
-  a.byuilink{
+    background-color: #efcdbd;
+    color: #774936;
+    padding: 2px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid #322420;
+    align-items: center;
+    justify-content: center;
+    min-width: 200px;
+  }
+  a.byuilink {
     color: #322420;
-    font-size: .8em;
-    
+    font-size: 0.8em;
   }
 
+  table {
+    display: table;
+  }
+
+  .forest {
+    float: right;
+    width: 40%;
+    margin: 15px;
+  }
+  .summary {
+    position: absolute;
+    box-shadow: 0 0 30px #111;
+    top: 450px;
+  }
+  div #social {
+    display: block;
+  }
+
+  .contactinfo {
+    display: flex;
+  }
+  .map {
+    
+    width: 250px;
+    
+  
+  }
+  .Forcast {
+    display: block;
+  }
 } /*end medium */
