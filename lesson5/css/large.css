@@ -1,41 +1,39 @@
 @media only screen and (min-width: 60em) {
-  nav ul{
+  nav ul {
     display: grid;
-   
-  } 
-  nav ul.hide {display: grid;}
- 
+  }
+  nav ul.hide {
+    display: grid;
+  }
+
   h1 {
     color: #774936;
     font-family: "Kufam", cursive;
     font-size: 2em;
-  } 
+  }
   header {
     display: flex;
-      background-color: #EFCDBD;
-      color: #774936;
-      padding: 2px;
-      margin-right: auto;
-      margin-left: auto;
-      border: 1px solid #322420;
-      align-items:center;
-      justify-content:center;
-      min-width: 200px;
-    
-      
-    }
-    body {
-      margin: 2em;
-    }
-    main {
-      padding: 1.5em;
-    }
+    background-color: #efcdbd;
+    color: #774936;
+    padding: 2px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid #322420;
+    align-items: center;
+    justify-content: center;
+    min-width: 200px;
+  }
+  body {
+    margin: 2em;
+  }
+  main {
+    padding: 1.5em;
+  }
 
   a:-webkit-any-link {
     border: none;
     padding: 2px;
     text-align: center;
-   
   }
   .summary {
     position: absolute;
@@ -44,46 +42,36 @@
     border: 1px solid #000;
     padding: 1.5rem;
     box-shadow: 0 0 30px #111;
-   color: #322420;
-   background: #efcdbd;
-  
-  }
-  a.byuilink{
     color: #322420;
-    font-size: .8em;
-    
+    background: #efcdbd;
+  }
+  a.byuilink {
+    color: #322420;
+    font-size: 0.8em;
   }
   .forcast {
     display: table;
   }
- 
-.forest {
-  float: right;
- width: 40%;
- margin: 15px;
-} 
-.summary {
-  position: absolute;
-  box-shadow: 0 0 30px #111;
 
-
-}
-.contactinfo {
-  display: flex;
-
-}
-div #social {
-  display: block;
+  .forest {
+    float: right;
+    width: 40%;
+    margin: 15px;
+  }
+  .summary {
+    position: absolute;
+    box-shadow: 0 0 30px #111;
+  }
+  .contactinfo {
+    display: flex;
+  }
+  div #social {
+    display: block;
   }
   .map {
-    
     width: 250px;
-    
-  
   }
   .Forcast {
     display: block;
   }
 }
-
-
