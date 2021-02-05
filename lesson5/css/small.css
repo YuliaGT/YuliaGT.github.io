@@ -29,7 +29,7 @@ p {
 
 }
 main {
-  padding: none;
+  padding-value: none;
 }
 nav ul li.active a {
   color: #fff;
@@ -51,7 +51,7 @@ header {
 .contactinfo {
   
   background-color: #efcdbd;
-  color:  #774936;d;
+  color:  #774936;
   min-width: 200px;
   margin-right: auto;
   margin-left: auto;
@@ -140,8 +140,8 @@ nav button {
   font-weight: 700;
 }
 .hero {
-  margin: 10px auto:
-  background-color: white:
+  margin: 10px auto;
+  background-color: white;
   border: 1px solid #333;
  
 }
@@ -228,10 +228,16 @@ table {
 div #social {
 display: none;
 }
-h4#5days {
-  display:none;
-}
+
 .Forcast {
   display: none;
+}
+.banner {
+  text-align: center;
+  background: rgb(243, 204, 30);
+  padding: 1em;
+  font-size: 1em;
+  display: block;
+ 
 }
 
