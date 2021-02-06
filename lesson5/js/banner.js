@@ -1,7 +1,7 @@
 function banner(){
 
    let day = new Date().getDay();
-   if (day == 5) {
+   if (day != 5) {
       document.getElementById("banner").style.display = "none";
   }  
 }
