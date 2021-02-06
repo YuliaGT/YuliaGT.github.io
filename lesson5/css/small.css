@@ -25,7 +25,7 @@ h4 {
 }
 p {
   
-  font-size: 1em;
+font-size: 1em;
 
 }
 
@@ -37,7 +37,7 @@ header {
   display: flex;
   background-color: #efcdbd;
   color: #774936;
-  min-width: 200px;
+
   border: 1px solid #322420;
   align-items: center;
   justify-content: center;
@@ -50,9 +50,6 @@ header {
   
   background-color: #efcdbd;
   color:  #774936;
-  min-width: 200px;
-  margin-right: auto;
-  margin-left: auto;
   border: 1px solid #322420;
   align-items: center;
   justify-content: center;
@@ -69,14 +66,14 @@ footer {
   margin-left: auto;
   margin-top: 150px;
   border: 1px solid #322420;
-  min-width: 200px;
+  
 }
 nav ul {
   display: block;
   grid-template-columns: repeat(auto-fit, minmax(5em, 1fr));
   list-style-type: none;
   font-size: 20px;
-  padding: 0;
+  
 }
 
 nav ul li a {
@@ -101,7 +98,7 @@ nav a:hover {
   color: white;
   font-size: 0.6em;
   padding: 0.1rem;
-  min-width: 200px;
+
 }
 a:-webkit-any-link {
   color: #efcdbd;
@@ -118,14 +115,7 @@ nav button {
   font-size: 1.9rem;
   color: #efcdbd;
 }
-.content {
-  display: block;
-  margin: 10px auto;
-  border: 1px solid #322420;
-  background-color: #efcdbd;
-  padding: 20px;
-  min-width: 100px;
-}
+
 .logo {padding: 20px;}
 
 /*----- Clearfix: Force an Element not to collapse -----*/
@@ -205,11 +195,7 @@ table {
   
  
 }
-.social img {
-  width: 45px;
-  margin-right: 20px;
- 
-}
+
 .facebook, .youtube, .instagram {
   border-radius: 30px;
 }
@@ -230,7 +216,7 @@ display: none;
 .Forcast {
   display: none;
 }
-.banner {
+#banner {
   text-align: center;
   background: rgb(243, 204, 30);
   padding: 1em;

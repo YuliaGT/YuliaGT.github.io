@@ -12,17 +12,14 @@
     font-size: 2em;
   }
   header {
-    display: flex;
-    background-color: #efcdbd;
-    color: #774936;
-    padding: 2px;
+
+    
     margin-right: auto;
     margin-left: auto;
-    border: 1px solid #322420;
-    align-items: center;
-    justify-content: center;
-    min-width: 200px;
+    
+    
   }
+
   body {
     margin: 2em;
   }
@@ -37,18 +34,13 @@
   }
   .summary {
     position: absolute;
-    top: 500px;
-    right: 80px;
-    border: 1px solid #000;
-    padding: 1.5rem;
+    
+   
     box-shadow: 0 0 30px #111;
-    color: #322420;
-    background: #efcdbd;
+   
   }
-  a.byuilink {
-    color: #322420;
-    font-size: 0.8em;
-  }
+  
+ 
   .forcast {
     display: table;
   }

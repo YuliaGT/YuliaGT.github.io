@@ -32,21 +32,13 @@
     font-size: 0.9em;
   }
   header {
-    display: flex;
-    background-color: #efcdbd;
-    color: #774936;
-    padding: 2px;
+ 
     margin-right: auto;
     margin-left: auto;
-    border: 1px solid #322420;
-    align-items: center;
-    justify-content: center;
-    min-width: 200px;
+
   }
-  a.byuilink {
-    color: #322420;
-    font-size: 0.8em;
-  }
+
+
 
   table {
     display: table;

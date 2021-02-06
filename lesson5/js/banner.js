@@ -1,8 +1,8 @@
 function banner(){
 
    let day = new Date().getDay();
-    if (day == 6) {
-    document.getElementById("banner").value;
-   }   
+   if (day == 5) {
+      document.getElementById("banner").style.display = "none";
+  }  
 }
-banner();
+
