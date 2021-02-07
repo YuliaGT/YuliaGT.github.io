@@ -47,7 +47,6 @@ header {
   display: flex; 
 }
 .contactinfo {
-  
   background-color: #efcdbd;
   color:  #774936;
   border: 1px solid #322420;
@@ -221,7 +220,7 @@ display: none;
   background: rgb(243, 204, 30);
   padding: 1em;
   font-size: 1em;
-  display: block;
+  display: hide;
  
 }
 .town {
