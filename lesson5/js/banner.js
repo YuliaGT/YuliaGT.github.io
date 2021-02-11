@@ -1,4 +1,4 @@
-function banner(){
+
 
    let day = new Date().getDay();
    
@@ -6,5 +6,5 @@ function banner(){
          document.getElementById("banner").style.display ="block";
       }
    
-}
+
 

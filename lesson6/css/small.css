@@ -100,7 +100,7 @@ nav a:hover {
 
 }
 a:-webkit-any-link {
-  color: #efcdbd;
+  color: #322420;
   font-size: 0.7em;
 }
 a.byuilink {
@@ -220,6 +220,7 @@ display: none;
   background: rgb(243, 204, 30);
   padding: 1em;
   font-size: 1em;
+  display: none;
   
  
 }

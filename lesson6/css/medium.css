@@ -24,10 +24,7 @@
   body {
     margin: 1.5em;
   }
-  a:-webkit-any-link {
-    color: #efcdbd;
-    font-size: 0.8em;
-  }
+ 
   nav ul li.active a {
     font-size: 0.9em;
   }
