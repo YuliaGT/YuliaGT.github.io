@@ -126,12 +126,7 @@ nav button {
 .span {
   font-weight: 700;
 }
-.hero {
-  margin: 10px auto;
-  background-color: white;
-  border: 1px solid #333;
- 
-}
+
 /*.hero-summary {
   position: relative;
   
@@ -227,4 +222,6 @@ display: none;
 .town {
   width: 100%;
 }
-
+.mainimg {
+  width: 100%;
+}

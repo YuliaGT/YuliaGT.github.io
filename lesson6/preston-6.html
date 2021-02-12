@@ -58,14 +58,19 @@
       <h2>Preston Idaho</h2>
       <div class="hero-summary">
         <div class="hero">
-          <img class="town" src="images/town.jpg" alt="Town picture" />
+          <picture class="mainimg">
+            <source media="(max-width: 500px)" srcset="images/small.jpg">
+              <source media="(max-width: 800px)" srcset="images/medium.jpg">
+                <source media="(max-width: 1200px)" srcset="images/large.jpg">
+              <img src="images/large.jpg" alt="view">
+          </picture>
           <section class="summary">
             <h3>Weather Summary</h3>
             <p>Currently: Cloudy</p>
-            <p>Temperature</p><p id="temp">30</p><p>F</p>
-            <p>Wind</p> <p id="speed">9</p><p>mph</p>
+            <p>Temperature: <span id="temp"> 30 </span>F</p>
+            <p>Wind: <span id="speed">9 </span> mph</p>
             <p>Humidity: 65%</p>
-            <p>Wind Chill</p><span id="output"></span></p>
+            <p>Wind Chill: <span id="output"></span></p>
           </section>
         </div>
       </div>
