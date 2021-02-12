@@ -50,6 +50,8 @@
     position: absolute;
     box-shadow: 0 0 30px #111;
     top: 500px;
+    font-size: 0.8em;
+
   }
   div #social {
     display: block;

@@ -137,7 +137,7 @@ nav button {
   top: 500px;
   right: 80px;
   border: 1px solid #000;
-	padding: 1.5rem;
+	padding: 1em;
   box-shadow: none;
  color: #322420;
  background: #efcdbd;
@@ -219,9 +219,6 @@ display: none;
   
  
 }
-.town {
-  width: 100%;
-}
-.mainimg {
-  width: 100%;
+img {
+  max-width: 100%;
 }
