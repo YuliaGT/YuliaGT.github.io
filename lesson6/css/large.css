@@ -12,12 +12,8 @@
     font-size: 2em;
   }
   header {
-
-    
     margin-right: auto;
     margin-left: auto;
-    
-    
   }
 
   body {
@@ -35,12 +31,10 @@
   .summary {
     position: absolute;
     font-size: 1em;
-   
+
     box-shadow: 0 0 30px #111;
-   
   }
-  
- 
+
   .forcast {
     display: table;
   }
