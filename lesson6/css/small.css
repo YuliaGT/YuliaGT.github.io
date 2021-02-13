@@ -176,11 +176,7 @@ table {
   padding: 1.5rem;
   background-color: #EFCDBD;
 }
-.social {
-  text-align: center;
-  
- 
-}
+
 
 .facebook, .youtube, .instagram {
   border-radius: 30px;
@@ -194,9 +190,6 @@ table {
   width: 100%;
   
 
-}
-div #social {
-display: none;
 }
 
 .Forcast {
