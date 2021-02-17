@@ -1,0 +1,20 @@
+h1 {
+    color: #774936;
+    font-family: "Kufam", cursive;
+    font-size: 1.3em;
+    text-align: center;
+  
+  
+  }
+   img[data-src] {
+  filter: blur(0.2em);
+}
+
+ img {
+  filter: blur(0em);
+  transition: filter 0.5s;
+}
+.load {
+  display: grid;
+  text-align: center;
+}
