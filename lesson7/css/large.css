@@ -28,26 +28,10 @@
     padding: 2px;
     text-align: center;
   }
-  .summary {
-    position: absolute;
-    font-size: 1em;
 
-    box-shadow: 0 0 30px #111;
-  }
 
-  .forcast {
-    display: table;
-  }
-
-  .forest {
-    float: right;
-    width: 40%;
-    margin: 15px;
-  }
-  .summary {
-    position: absolute;
-    box-shadow: 0 0 30px #111;
-  }
+ 
+ 
   .contactinfo {
     display: flex;
   }
@@ -57,7 +41,9 @@
   .map {
     width: 250px;
   }
-  .Forcast {
-    display: block;
+  .gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
   }
 }

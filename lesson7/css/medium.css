@@ -24,35 +24,15 @@
   body {
     margin: 1.5em;
   }
- 
+
   nav ul li.active a {
     font-size: 0.9em;
   }
   header {
- 
     margin-right: auto;
     margin-left: auto;
-
   }
 
-
-
-  table {
-    display: table;
-  }
-
-  .forest {
-    float: right;
-    width: 40%;
-    margin: 15px;
-  }
-  .summary {
-    position: absolute;
-    box-shadow: 0 0 30px #111;
-    top: 500px;
-    font-size: 0.8em;
-
-  }
   div #social {
     display: block;
   }
@@ -61,13 +41,10 @@
     display: flex;
   }
   .map {
-    
     width: 250px;
-    
-  
   }
 
-  .Forcast {
-    display: block;
+  .gallery {
+    grid-template-columns: 1fr 1fr;
   }
 } /*end medium */
