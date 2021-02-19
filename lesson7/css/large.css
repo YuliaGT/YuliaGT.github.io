@@ -31,7 +31,8 @@
 
 
  
- 
+  .fornav:hover {box-shadow: 0 0 50px #774936;}
+  
   .contactinfo {
     display: flex;
   }
@@ -46,5 +47,5 @@
     grid-template-columns: 1fr 1fr 1fr;
 
   }
-  .fornav:hover {box-shadow: 0 0 50px #333;}
+ 
 }
