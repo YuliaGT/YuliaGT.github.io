@@ -88,7 +88,7 @@ nav ul.hide {
 }
 nav a:hover {
   text-decoration: none;
-  background-color: #efcdbd;
+  /*background-color: #efcdbd; */
   color: white;
 }
 
@@ -175,6 +175,7 @@ figcaption{
   background-color: #774936;
   padding: 1em;
   font-size: 1em;
+  color: white;
   
 }
 
