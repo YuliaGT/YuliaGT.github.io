@@ -128,12 +128,7 @@
     margin: 20px;
     margin-left: 30px;
   }
-  .map {
-    border-radius: 10px;
-    width: 100%;
-    
-  
-  }
+ 
   
   #banner {
     text-align: center;
@@ -171,11 +166,13 @@
     box-shadow: 10px 10px 15px gray;
     justify-content: center;
 }
-.dark {
+ thead .dark {
     background-color:#628ca6;
     color: white;
+    font-size: 0.8em;
+
 }
-.wildwest {
+thead {
     background-color:#7fb9c2;
     font-size: 1.6em;
 }
@@ -184,13 +181,17 @@ th, td {
     border: 1px solid gainsboro;
     padding: 12px;
 }
-.second {
-    background-color:#e7f0ed;
+tbody tr {
+    background-color: #e7ffed;
 }
-.first {
-    background-color:#e7ffed;
+tbody tr:nth-child(even) {
+    background-color: #e7f0ed ;
 }
-.compiled {
+
+tfoot {
    background-color:#7fb9c2;
    font-size: 0.8em;
 }
+.map {
+    width: 250px;
+  }
