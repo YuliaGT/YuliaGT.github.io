@@ -1,0 +1,196 @@
+
+  h1 {
+    color: #774936;
+    font-family: "Kufam", cursive;
+    font-size: 1.3em;
+  
+  
+  }
+  h2 {
+    color: #774936;
+    font-family: "Kufam", cursive;
+    font-size: 1.5em;
+    text-align: center;
+  
+  }
+  main {
+    
+      margin: 0 auto;
+      padding: 20px;
+  }
+  
+  p {
+    
+  font-size: 1em;
+  
+  }
+  
+  nav ul li.active a {
+    color: #fff;
+    font-size: 1em;
+  }
+  header {
+    display: flex;
+    background-color: #efcdbd;
+    color: #774936;
+  
+    border: 1px solid #322420;
+    
+    justify-content: center;
+    padding: 2px;
+  }
+  .headings {
+    display: flex; 
+  }
+  .contactinfo {
+    background-color: #efcdbd;
+    color:  #774936;
+    border: 1px solid #322420;
+    align-items: center;
+    justify-content: center;
+  
+  
+  }
+  
+  footer {
+    background-color: #efcdbd;
+    color: #322420;
+    text-align: center;
+    padding: 2px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 150px;
+    border: 1px solid #322420;
+    
+  }
+  nav ul {
+    display: block;
+    grid-template-columns: repeat(auto-fit, minmax(5em, 1fr));
+    list-style-type: none;
+    font-size: 20px;
+    
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    display: block;
+    padding: 0.6rem 2%;
+    color: rgba(255, 255, 255, 0.8);
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+  }
+  
+  nav ul.hide {
+    display: none;
+  }
+  nav a:hover {
+    text-decoration: none;
+    /*background-color: #efcdbd; */
+    color: white;
+  }
+  
+  .navigation {
+    background-color: #774936;
+    color: white;
+    font-size: 0.6em;
+    padding: 0.1rem;
+  
+  }
+  a:-webkit-any-link {
+    color: #322420;
+    font-size: 0.7em;
+  }
+  
+  nav button {
+    margin: 0.2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.9rem;
+    color: #efcdbd;
+  }
+  
+  .logo {padding: 20px;}
+  
+  /*----- Clearfix: Force an Element not to collapse -----*/
+  .navigation:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .span {
+    font-weight: 700;
+  }
+  
+  
+  .facebook, .youtube, .instagram {
+    border-radius: 30px;
+  }
+  .box4 {
+    margin: 20px;
+    margin-left: 30px;
+  }
+  .map {
+    border-radius: 10px;
+    width: 100%;
+    
+  
+  }
+  
+  #banner {
+    text-align: center;
+    background: rgb(243, 204, 30);
+    padding: 1em;
+    font-size: 1em;
+    display: none;
+    
+   
+  }
+  
+  img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+   img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+    
+   
+  }
+  
+  
+  figcaption{
+    background-color: #774936;
+    padding: 1em;
+    
+    color: white;
+    
+  }
+  table {
+    width: 350px;
+    border-collapse: collapse;
+    font-family: 'Ubuntu', sans-serif;
+    box-shadow: 10px 10px 15px gray;
+    justify-content: center;
+}
+.dark {
+    background-color:#628ca6;
+    color: white;
+}
+.wildwest {
+    background-color:#7fb9c2;
+    font-size: 1.6em;
+}
+th, td {
+    text-align: center;
+    border: 1px solid gainsboro;
+    padding: 12px;
+}
+.second {
+    background-color:#e7f0ed;
+}
+.first {
+    background-color:#e7ffed;
+}
+.compiled {
+   background-color:#7fb9c2;
+   font-size: 0.8em;
+}
