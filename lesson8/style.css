@@ -175,7 +175,7 @@ th, td {
 tbody tr {
     background-color: #e7ffed;
 }
-tbody tr:nth-child(even) {
+tbody tr:nth-child(odd) {
     background-color: #e7f0ed ;
 }
 
