@@ -207,3 +207,33 @@ table {
 img {
   max-width: 100%;
 }
+form fieldset {
+  margin: 2rem 0;
+  border: 1px solid #774936 ;
+  border-radius: 10px;
+  padding: .5rem 2%;
+}
+form label.top, form div {
+  display: block;
+  padding-top: 1rem;
+  color: #774936 ;
+  font-size: .8rem;
+  }
+  form label.top input, form label.top select {
+    -webkit-appearance: none;
+  display: block;
+  font-size: 1rem;
+  border: solid 1px #774936 ;
+  border-radius: 4px;
+  padding: .75rem;
+  color: #774936 ;
+  width: 100%;
+  max-width: 20rem;
+  background-color: rgba(0,0,0,0.1);  
+}
+form label.top input:required {
+  border-left: red solid 4px;
+}
+form label.top input:required:valid {
+  border-left: #774936 solid 4px;
+}

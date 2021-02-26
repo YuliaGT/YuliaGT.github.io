@@ -3,11 +3,11 @@
   <head>
     <meta
       name="description"
-      content="Preston Town page continued for The Weather site project Yulia Tanner WDD230 BYUI"
+      content="Storm Center page for The Weather site project Yulia Tanner WDD230 BYUI"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     
-    <title>Weather site week 6</title>
+    <title>Weather site week 8</title>
     <meta charset="utf-8" />
 
     <link rel="stylesheet" href="css/normalize.css" />
@@ -51,7 +51,65 @@
       </ul>
     </nav>
     <main>
-      
+
+      <form method="get" action="thanks.html">
+      <fieldset>
+        <legend>Your Personal Information</legend>
+<label class="top">Full Name* <input type="text" name="fname" required></label>
+<label class="top">Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
+<label class="top">Email <input type="email" name="email" placeholder="someone@gmail.com"></label>
+<label class="top">Zip Code* <input type="number" name="zip" placeholder="12345" required></label>         
+
+</fieldset>
+
+<fieldset>
+  <legend>About Storm</legend>
+  <label class="top">Storm Date <input type="date" name="StormDate"></label>
+  <label class="top">Storm Type <input list="stormType" class>
+    <datalist id="stormType"> 
+      <option value= "Flash Flood"></option>
+      <option value= "Hail"></option>
+      <option value= "Hurricane"></option>
+      <option value= "Thunderstorm"></option>
+      <option value= "Tornado"></option>
+    </datalist>
+  
+</label>
+<label clas="top">Storm Severity <input type="stormSeverity" value="4" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)"> <span id="ratingvalue"></span></label>
+<datalist id="tickmarks">
+  <option value="0"></option>
+  <option value="1"></option>
+  <option value="2"></option>
+  <option value="3"></option>
+  <option value="4"></option>
+  <option value="5"></option>
+  <option value="6"></option>
+  <option value="7"></option>
+  <option value="8"></option>
+  <option value="9"></option>
+  <option value="10"></option>
+</datalist>
+
+<label class="top">Storm Regeon
+  <select name="subject">
+  <option value="">Please Select &#9662;</option>
+  <option value="fish">Fish Haven</option>
+  <option value="preston">Preston</option>
+  <option value="soda">Soda Springs</option>
+  
+</select>
+</label>
+<div>Are You In Danger</div>
+<label class="sbs"><input type="radio" name="danger" value="yes">Yes</label>
+<label class="sbs"><input type="radio" name="danger" value="yes">No</label>
+<label class="sbs"><input type="radio" name="danger" value="yes">Maybe</label>
+
+<label class="top">Additional Information <textarea name="additionalInfo"></textarea></label>
+</fieldset>
+    
+<input type="submit" value="Report Storm" class="submitBtn"> 
+        </form>
+
       <div class="contacts">
         <section class="contactinfo">
           <div class="box3">
