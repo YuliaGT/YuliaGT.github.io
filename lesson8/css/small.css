@@ -231,8 +231,13 @@ form label.top, form div {
   max-width: 20rem;
   background-color: rgba(0,0,0,0.1);  
 }
+form label.sbs {
+  display: block;
+  padding: .75rm 0;
+  color: #555;
+}
 form label.top input:required {
-  border-left: red solid 4px;
+  border-left: #f25d1f solid 4px;
 }
 form label.top input:required:valid {
   border-left: #774936 solid 4px;
