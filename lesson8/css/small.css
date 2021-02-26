@@ -217,9 +217,9 @@ form label.top, form div {
   display: block;
   padding-top: 1rem;
   color: #774936 ;
-  font-size: .8rem;
+  font-size: 1rem;
   }
-  form label.top input, form label.top select {
+  form label.top input, form label.top select, form label.top textarea{
     -webkit-appearance: none;
   display: block;
   font-size: 1rem;
@@ -233,8 +233,11 @@ form label.top, form div {
 }
 form label.sbs {
   display: block;
-  padding: .75rm 0;
+  padding: .3rem;
   color: #555;
+}
+#text {
+  padding-top: 1rem;
 }
 form label.top input:required {
   border-left: #f25d1f solid 4px;
