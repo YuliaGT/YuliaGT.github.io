@@ -237,3 +237,18 @@ form label.top input:required {
 form label.top input:required:valid {
   border-left: #774936 solid 4px;
 }
+
+#ratingvalue {
+	margin: 0 30px;
+	color: #774936;
+}
+form input.submitBtn {
+  border: none;
+  background-color: #774936;
+  color: white;
+  border-radius: 0.6rem;
+  padding: 1rem;
+      margin: 0 0 2rem 5%;
+width: 90%;
+  max-width: 20rem;
+}

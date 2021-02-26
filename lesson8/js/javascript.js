@@ -18,3 +18,6 @@ if (t > 50 && sp < 3) {
 
 document.getElementById("output").innerText = windChill + " \u00B0F";
 
+function adjustSeverity(rating) {
+  document.getElementById("ratingvalue").innerHTML = rating;
+}
