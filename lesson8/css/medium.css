@@ -1,0 +1,73 @@
+/* 35em is also 560px when basefont is 16px */
+@media only screen and (min-width: 35rem) {
+  nav button {
+    display: none;
+  }
+  nav ul {
+    display: grid;
+  }
+  nav ul.hide {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+  nav ul li a {
+    text-decoration: none;
+    display: block;
+    padding: 0.6rem 2%;
+    color: rgba(255, 255, 255, 0.8);
+    border: none;
+    text-align: center;
+  }
+  main {
+    padding: 1em;
+  }
+  body {
+    margin: 1.5em;
+  }
+ 
+  nav ul li.active a {
+    font-size: 0.9em;
+  }
+  header {
+ 
+    margin-right: auto;
+    margin-left: auto;
+
+  }
+
+
+
+  table {
+    display: table;
+  }
+
+  .forest {
+    float: right;
+    width: 40%;
+    margin: 15px;
+  }
+  .summary {
+    position: absolute;
+    box-shadow: 0 0 30px #111;
+    top: 500px;
+    font-size: 0.8em;
+
+  }
+  div #social {
+    display: block;
+  }
+
+  .contactinfo {
+    display: flex;
+  }
+  .map {
+    
+    width: 250px;
+    
+  
+  }
+
+  .Forcast {
+    display: block;
+  }
+} /*end medium */
