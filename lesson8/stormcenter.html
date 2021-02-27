@@ -55,12 +55,14 @@
           <fieldset>
             <legend>Your Personal Information</legend>
             <label class="top"
-              >Full Name* <input type="text" name="fname" required
+              >Full Name*  (Min 5 characters)<input type="text" name="fname" required pattern="[a-zA-Z\s]{5,}"
+             
             /></label>
             <label class="top"
               >Phone*
               <input type="tel" name="phone" placeholder="1235551234" required
-            /></label>
+             
+              /></label>
             <label class="top"
               >Email
               <input type="email" name="email" placeholder="someone@gmail.com"
@@ -86,9 +88,9 @@
               </datalist>
             </label>
 
-            <label class="top"
+            <label  class="stormSeverity"
               >Storm Severity:
-              <span id="ratingvalue">5</span>
+         
               <input
                 type="range"
                 name="severity"
@@ -101,6 +103,7 @@
                 oninput="adjustSeverity(this.value)"
                 onchange="adjustSeverity(this.value)"
               />
+              <span id="ratingvalue"> 5  </span>
             </label>
 
             <datalist id="tickmarks">
@@ -128,13 +131,13 @@
             </label>
             <div>Are You In Danger</div>
             <label class="sbs"
-              ><input type="radio" name="danger" value="yes" />Yes</label
+              ><input type="radio" name="danger" value="yes" /> Yes</label
             >
             <label class="sbs"
-              ><input type="radio" name="danger" value="yes" />No</label
+              ><input type="radio" name="danger" value="yes" /> No</label
             >
             <label class="sbs"
-              ><input type="radio" name="danger" value="yes" />Maybe</label
+              ><input type="radio" name="danger" value="yes" /> Maybe</label
             >
 
             <label class="top"
