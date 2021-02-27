@@ -135,6 +135,7 @@ form label.top input:required {
 }
 form label.top input:required:valid {
   border-left: #774936 solid 4px;
+  
 }
 
 
