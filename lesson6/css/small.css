@@ -62,7 +62,10 @@ nav a:hover {
 
   color: #f25d1f;
 }
-
+#byuilink {
+  color: #322420;
+  font-size: 1em;
+}
 .navigation {
   background-color: #774936;
   color: white;
@@ -70,7 +73,7 @@ nav a:hover {
   padding: 0.1rem;
 }
 a:-webkit-any-link {
-  color: #322420;
+  color: white;
   font-size: 0.7em;
 }
 

@@ -38,7 +38,7 @@ h1 {
 
 /*----------- NAVIGATION --------------*/
 nav ul li.active a {
-  color: #f25d1f ;
+  color: white ;
   font-size: 1em;
 }
 nav ul {
@@ -74,6 +74,10 @@ nav a:hover {
 a:-webkit-any-link {
   color: #f8ede7;
   font-size: 0.7em;
+}
+#byuilink {
+  color: #322420;
+  font-size: 1em;
 }
 
 nav button {
