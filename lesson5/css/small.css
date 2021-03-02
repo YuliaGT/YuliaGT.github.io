@@ -88,8 +88,12 @@ nav ul.hide {
 }
 nav a:hover {
   text-decoration: none;
-  background-color: #efcdbd;
-  color: white;
+
+  color: #f25d1f;
+}
+#byuilink {
+  color: #322420;
+  font-size: 1em;
 }
 
 .navigation {
@@ -100,7 +104,7 @@ nav a:hover {
 
 }
 a:-webkit-any-link {
-  color: #322420;
+  color: white;
   font-size: 0.7em;
 }
 a.byuilink {

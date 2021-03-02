@@ -1,0 +1,70 @@
+/*----------- FONT--------------*/
+h1 {
+    color: #573ee7;
+    font-family: "Kufam", cursive;
+    font-size: 2.2em;
+    text-align: center;
+  }
+
+  h2 {
+    color: #332677;
+    font-family: "Lora", cursive;
+    font-size: 1.5em;
+  }
+
+  p {
+    color: #3a299b;
+    font-family: "Kufam", cursive;
+    font-size: .9em;
+  }
+/*----------- SECTION --------------*/
+  .cards {
+ display: grid;
+    text-align: center;
+    background-color: #cecfd1;
+    grid-template-columns: 1fr;
+    grid-column-gap: 12px;
+    grid-row-gap: 12px; 
+    border: 1.5px solid rgba(0, 0, 0, 0.3);
+    margin: 10px;
+    padding: 20px;
+  }
+ 
+  section {
+    border: 1.5px solid rgba(0, 0, 0, 0.3);
+    background-color: #c0daf8;
+   
+    
+  }
+/*----------- IMAGE --------------*/
+  section img {
+    width: 60%;
+    box-shadow: 0px 0px 15px 5px #615657;
+    margin-bottom: 10px;
+    /*lazy load */
+    filter: blur(0em);
+  transition: filter 0.5s;
+  }
+
+  img[data-src] {
+    filter: blur(0.2em);
+  }
+  /*----------- FOOTER --------------*/
+footer {
+  background-color: #cecfd1;
+  text-align: center;
+  margin: 10px;
+  padding: 20px;
+  border: 1.5px solid rgba(0, 0, 0, 0.3);
+}
+/*----------- MEDIA--------------*/
+  @media only screen and (min-width: 600px) {
+    .cards {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  @media only screen and (min-width: 800px) {
+    .cards {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }
