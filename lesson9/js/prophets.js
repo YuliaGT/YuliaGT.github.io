@@ -39,7 +39,7 @@ fetch(requestURL)
 
 
   
-
+// Lazy load
 
   const imagesToLoad = document.querySelectorAll("img[data-src]");
 
