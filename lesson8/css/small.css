@@ -38,7 +38,7 @@ h1 {
 
 /*----------- NAVIGATION --------------*/
 nav ul li.active a {
-  color: #fff;
+  color: #f25d1f ;
   font-size: 1em;
 }
 nav ul {
@@ -62,17 +62,17 @@ nav ul.hide {
 nav a:hover {
   text-decoration: none;
 
-  color: white;
+  color: #f25d1f;
 }
 
 .navigation {
   background-color: #774936;
-  color: white;
+  color: rgb(255, 255, 255);
   font-size: 0.6em;
   padding: 0.1rem;
 }
 a:-webkit-any-link {
-  color: #322420;
+  color: #f8ede7;
   font-size: 0.7em;
 }
 
@@ -81,7 +81,7 @@ nav button {
   background-color: transparent;
   border: none;
   font-size: 1.9rem;
-  color: #efcdbd;
+  color: #efcdbd
 }
 
 /*----- Clearfix: Force an Element not to collapse -----*/
