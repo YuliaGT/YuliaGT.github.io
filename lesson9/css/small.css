@@ -92,19 +92,19 @@ h2 {
   text-align: center;
 }
 h3 {
-  color: #221070;
+  color: #322420;; 
   font-family: "Kufam", cursive;
-  font-size: 1.2em;
+  font-size: 1.3em;
 }
 h4 {
-  color: #382e94;
+  color: #774936 ;
   font-family: "Roboto", cursive;
   font-size: 1.2em;
 }
 h5 {
   color: black;
   font-family: "Kufam", cursive;
-  font-size: .8em;
+  font-size: .9em;
 }
 p {
   font-size: 1em;
@@ -160,7 +160,7 @@ img {
  
 .maintowns section {
   border: 1.5px solid rgba(0, 0, 0, 0.3);
-  background-color: #c2d7f1;
+  background-color: #cfd5db;
  
   
 }
