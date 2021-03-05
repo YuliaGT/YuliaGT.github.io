@@ -67,8 +67,9 @@ fetch(requestURL)
       info.appendChild(h5);
       info.appendChild(h52);
       info.appendChild(h53);
-      card.appendChild(img);
       card.appendChild(info);
+      card.appendChild(img);
+      
 
       document.querySelector("div.maintowns").appendChild(card);
     });

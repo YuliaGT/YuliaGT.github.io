@@ -72,4 +72,10 @@
     display: grid;
    
 }
+.maintowns img {
+
+  box-shadow: 0 0 30px #111;
+  width: 100%;
+}
+
 }

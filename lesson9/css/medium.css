@@ -80,7 +80,12 @@
     .maintowns section:nth-child(odd) {
       flex-direction: row-reverse;
     }
+    .maintowns img {
 
+      box-shadow: 0 0 30px #111;
+      width: 70%;
+    }
+    
 
 
 } /*end medium */
