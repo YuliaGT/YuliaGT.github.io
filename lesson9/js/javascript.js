@@ -1,6 +1,5 @@
 function Menu() {
-    
-    document.getElementById("primaryNav").classList.toggle("hide");
+  document.getElementById("primaryNav").classList.toggle("hide");
 }
 
 /*----------- Wind chill --------------*/
@@ -22,53 +21,55 @@ function adjustSeverity(rating) {
   document.getElementById("ratingvalue").innerHTML = rating;
 }*/
 /*----------- JSON --------------*/
-const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+const requestURL = "https://byui-cit230.github.io/weather/data/towndata.json";
 
 fetch(requestURL)
   .then(function (response) {
     return response.json();
   })
   .then(function (jsonObject) {
-   // console.table(jsonObject);  // temporary checking for valid response and data parsing
-   const towns = jsonObject['towns'];
-  /* console.log(towns); 
+    // console.table(jsonObject);  // temporary checking for valid response and data parsing
+    const towns = jsonObject["towns"];
+    /* console.log(towns); 
    console.log(typeof(towns)); */
-const maintowns= document.querySelector('.maintowns');
- 
+    const maintowns = document.querySelector(".maintowns");
 
-const townsfilter = towns.filter(town=> town.name == "Preston" ) 
-//&& "Fish Haven" && "Soda Springs");
-
-
-//for (let i = 0; i < towns.length; i++ ) {
-  townsfilter.forEach(town=> {
-  let card= document.createElement('section');
-  let h2 = document.createElement('h2');
-  let h3 = document.createElement('h3');
-  let p = document.createElement('p');
-  let p2 = document.createElement('p');
-  let p3 = document.createElement('p');
-  let img = document.createElement('img');
+    const townsfilter = towns.filter(
+      (town) =>
+        town.name === "Preston" ||
+        town.name === "Soda Springs" ||
+        town.name === "Fish Haven"
+    );
 
 
-  h2.innerHTML = `${towns.name}`;
+    //for (let i = 0; i < towns.length; i++ ) {
+    townsfilter.forEach((town) => {
+      let card = document.createElement("section");
+      let info = document.createElement("div");
+      let h3 = document.createElement("h3");
+      let h4 = document.createElement("h4");
+      let h5 = document.createElement("h5");
+      let h52 = document.createElement("h5");
+      let h53 = document.createElement("h5");
+      let img = document.createElement("img");
+      
 
-  h3.innerHTML = `${towns.motto}`;
-  p.innerHTML = 'Year Founded: ' + `${towns.yearFounded}`;
-    p2.innerHTML = 'Population: ' + `${towns.currentPopulation}`;
-    p3.innerHTML = 'Annual Rain Fall: ' + `${towns.averageRainfall}`;
-    img.setAttribute('src', `${towns.photo}`);
-    img.setAttribute('alt', `${towns.name}` + ' photo');
+      h3.innerHTML = `${town.name}`;
+      h4.innerHTML = `${town.motto}`;
+      h5.innerHTML = "Year Founded: " + `${town.yearFounded}`;
+      h52.innerHTML = "Population: " + `${town.currentPopulation}`;
+      h53.innerHTML = "Annual Rain Fall: " + `${town.averageRainfall}`;
+      img.setAttribute("src", `images/${town.photo}`);
+      img.setAttribute("alt", `${town.name}` + " photo");
 
-    card.appendChild(h2);
-    card.appendChild(h3);
-    card.appendChild(p);
-    card.appendChild(p2);
-    card.appendChild(p3);
-    card.appendChild(img);
+      info.appendChild(h3);
+      info.appendChild(h4);
+      info.appendChild(h5);
+      info.appendChild(h52);
+      info.appendChild(h53);
+      card.appendChild(img);
+      card.appendChild(info);
 
-    document.querySelector('div.maintowns').appendChild(card);
-  }
-);
-  })
-
+      document.querySelector("div.maintowns").appendChild(card);
+    });
+  });

@@ -70,4 +70,17 @@
   .Forcast {
     display: block;
   }
+
+  .maintowns section{
+ 
+      display: flex;
+      flex-direction: row;
+    }
+    
+    .maintowns section:nth-child(odd) {
+      flex-direction: row-reverse;
+    }
+
+
+
 } /*end medium */

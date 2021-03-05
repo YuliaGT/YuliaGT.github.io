@@ -54,10 +54,22 @@
   div #social {
     display: block;
   }
+
   .map {
     width: 250px;
   }
   .Forcast {
     display: block;
   }
+  .maintowns {
+    display: grid;
+
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+ 
+  }
+  .maintowns section{
+    display: grid;
+   
+}
 }
