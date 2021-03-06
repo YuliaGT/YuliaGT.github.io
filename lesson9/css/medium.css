@@ -87,6 +87,9 @@
       margin: 30px;
     }
     
-
+    .wireframes {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
 
 } /*end medium */

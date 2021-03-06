@@ -171,6 +171,12 @@ img {
   box-shadow: 0 0 30px #111;
   width: 100%;
 }
+/*----------- WIREFRAMES --------------*/
+.wireframes {
+  display: grid;
+  grid-template-columns: 1fr;
+  font-size: 1.5em;
+}
 
 /*----------- CONTACTS --------------*/
 .facebook,
