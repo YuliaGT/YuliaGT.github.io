@@ -88,22 +88,22 @@ nav button {
 h2 {
   color: #774936;
   font-family: "Kufam", cursive;
-  font-size: 1.5em;
+  font-size: 1.9em;
   text-align: center;
 }
 h3 {
   color: #322420;; 
   font-family: "Kufam", cursive;
-  font-size: 1.3em;
+  font-size: 1.7em;
 }
 h4 {
-  color: #774936 ;
-  font-family: "Roboto", cursive;
-  font-size: 1.2em;
+  color: #2e277a ;
+  font-family:'Lato', sans-serif;
+  font-size: 1.4em;
 }
 h5 {
   color: black;
-  font-family: "Kufam", cursive;
+  font-family:"Kufam", serif;
   font-size: .9em;
 }
 p {
