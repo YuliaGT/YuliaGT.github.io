@@ -1,40 +1,89 @@
-const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&appid=c47e55d54eb3cb601a2de0b71c34823d";
+const apiURL =
+  "https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&appid=c47e55d54eb3cb601a2de0b71c34823d";
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
     console.log(jsObject);
-    document.getElementById('currentlyvalue').textContent = jsObject.weather[0].main;
-    document.getElementById('tempvalue').textContent = jsObject.main.temp;
-    document.getElementById('speedvalue').textContent = jsObject.wind.speed;
-    document.getElementById('humidityvalue').textContent = jsObject.main.humidity;
+    document.getElementById("currentlyvalue").textContent =
+      jsObject.weather[0].main;
+    document.getElementById("tempvalue").textContent = jsObject.main.temp;
+    document.getElementById("speedvalue").textContent = jsObject.wind.speed;
+    document.getElementById("humidityvalue").textContent =
+      jsObject.main.humidity;
 
     if (jsObject.main.temp > 50 && jsObject.wind.speed < 3) {
-        document.getElementById('chillvalue').textContent = "N/A";
-       } 
-         else {
-            document.getElementById('chillvalue').textContent = 35.74 + (0.6215 * jsObject.main.temp) - (35.75 * ((Math.pow(jsObject.wind.speed, 0.16)))) + 0.4275 * jsObject.main.temp * ((Math.pow(jsObject.wind.speed, 0.16)));
-            document.getElementById('chillvalue').textContent = Math.round(document.getElementById('chillvalue').textContent * 10) / 10
-       }
-       
+      document.getElementById("chillvalue").textContent = "N/A";
+    } else {
+      document.getElementById("chillvalue").textContent =
+        35.74 +
+        0.6215 * jsObject.main.temp -
+        35.75 * Math.pow(jsObject.wind.speed, 0.16) +
+        0.4275 * jsObject.main.temp * Math.pow(jsObject.wind.speed, 0.16);
+      document.getElementById("chillvalue").textContent =
+        Math.round(document.getElementById("chillvalue").textContent * 10) / 10;
+    }
   });
 
-/*
-        const htemp = parseFloat(jsObject.main.temp_max);
-        const ltemp = parseFloat(jsObject.main.temp_min);
-        const avtemp = htemp + ltemp / 2;
-        const wspeed = parseFloat(jsObject.wind.speed);
-        if (avtemp > 50 || wspeed < 3) {
-            let f = "N/A";
-            wchill = f;
-        } else {
-            let f = 35.74 + 0.6215 * avtemp - 35.75 * Math.pow(wspeed, 0.16) + 0.5275 * avtemp * Math.pow(wspeed, 0.16);
-            wchill = f.toFixed(1) + "&#8457;";
-        }
-        document.getElementById('windchill').innerHTML = wchill;
-        const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.weather[0].icon + '.png';
-        const desc = jsObject.weather[0].description;
-        // document.getElementById('imagesrc').textContent = imagesrc;
-        // document.getElementById('icon').setAttribute('src', imagesrc);
-        // document.getElementById('icon').setAttribute('alt', desc);
+// 5 day forecast
+
+const forecastapiURL =
+  "https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=c47e55d54eb3cb601a2de0b71c34823d";
+fetch(forecastapiURL)
+  .then((response) => response.json())
+  .then((jsObject) => {
+    console.log(jsObject);
+    let dayCount = 0;
+    const dayofWeek = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+
+    //filter
+    const tempfilter = jsObject.list.filter((x) =>
+      x.dt_txt.includes("18:00:00")
+    );
+
+    tempfilter.forEach((day) => {
+      let d = new Date(day.dt_txt);
+      document.getElementById(`forcastday${dayCount + 1}`).textContent =
+        dayofWeek[d.getDay()];
+      document.getElementById(`temp${dayCount + 1}`).textContent =
+        day.main.temp;
+      let imagesrc = `https://openweathermap.org/img/wn/${day.weather[0].icon}.png`;
+      document
+        .getElementById(`icon${dayCount + 1}`)
+        .setAttribute("src", imagesrc);
+      document
+        .getElementById(`icon${dayCount + 1}`)
+        .setAttribute("alt", day.weather[0].description);
+      dayCount++;
     });
-    */
+  });
+
+/*filter
+     const tempfilter = jsObject.list.filter((x) => x.dt.txt.includes("18:00:00"));
+     console.log(tempfilter);
+
+     jsObject[list]filter.forEach(x => {
+      let d = document.createElement("forcastday");
+      let temp = document.createElement("temp");
+
+  //loop
+  for (let i = 1; i < 6; i++) {
+       
+  thefive.forEach(x => {
+    let d = new Date(x.dt_txt);
+ 
+
+
+    document.getElementById("forcastday$(day+1)").textContent = dayofWeek[d.getDay()];
+    document.getElementById("temp$(day+1)").textContent = x.main.temp;
+
+    // icon
+     
+  const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.list[x].weather[0].icon + '.png'; // note the concatenation
+  const desc = jsObject.list[x].weather[0].description; // note how we reference the weather array
+  document.getElementById(icon).setAttribute('src', imagesrc); // focus on the setAttribute() method
+  document.getElementById(icon).setAttribute('alt', desc);
+
+
+    });
+  });
+*/

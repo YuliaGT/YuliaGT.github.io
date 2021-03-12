@@ -42,8 +42,8 @@
       <button onclick="Menu()">&#9776;</button>
 
       <ul id="primaryNav" class="hide">
-        <li><a href="../lesson9/html/index.html">Home page</a></li>
-        <li style="font-style: italic" class="active"><a href="preston-6.html">Preston</a></li>
+        <li><a href="../lesson9/index.html">Home page</a></li>
+        <li style="font-style: italic" class="active"><a href="preston-10.html">Preston</a></li>
         <li><a href="#">Soda Springs</a></li>
         <li><a href="#">Fish Haven</a></li>
         <li><a href="../lesson8/stormcenter.html">Storm Center</a></li>
@@ -63,44 +63,45 @@
           <section class="summary">
             <h3 >Weather Summary</h3>
             <section class="summaryfield">
-            <p class="summary-name">Currently:</p>
+            <p >Currently: </p>
             <p class="currently"><span id="currentlyvalue"></span></p>
-            <p class="summary-name">Temperature: </p>
+            <p >Temperature: </p>
             <p class="temperature"><span id="tempvalue"></span>&deg; F</p>
-            <p class="summary-name">Wind speed: </p>
+            <p >Wind speed: </p>
             <p class="speed"><span id="speedvalue"></span> mph</p>
-            <p class="summary-name">Humidity: </p>
+            <p >Humidity: </p>
             <p class="humidity"><span id="humidityvalue"></span> %</p>
-            <p class="summary-name">Wind Chill: </p>
+            <p >Wind Chill: </p>
             <p class="chill"><span id="chillvalue"></span>&deg; F</p>
           </section>
           </section>
         </div>
       </div>
       <div class="Forcast">
-        <h4>5 days forcast</h4>
+        <h4>5 day forcast</h4>
+        
       </div>
         <table id="forcast">
           <tr>
-            <th>Monday</th>
-            <th>Tuesday</th>
-            <th>Wednesday</th>
-            <th>Thursday</th>
-            <th>Friday</th>
+            <th><span id="forcastday1"></span></th>
+            <th><span id="forcastday2"></span></th>
+            <th><span id="forcastday3"></span></th>
+            <th><span id="forcastday4"></span></th>
+            <th><span id="forcastday5"></span></th>
           </tr>
           <tr>
-            <td><img src="images/clouds.png" alt="clouds" width="80" /></td>
-            <td><img src="images/snowflake.png" alt="snow" width="80" /></td>
-            <td><img src="images/snowflake.png" alt="snow" width="80" /></td>
-            <td><img src="images/sun.png" alt="sun" width="80" /></td>
-            <td><img src="images/clouds.png" alt="clouds" width="80" /></td>
+            <td><img id="icon1"></td>
+            <td><img id="icon2"></td>
+            <td><img id="icon3"></td>
+            <td><img id="icon4"></td>
+            <td><img id="icon5"></td>
           </tr>
           <tr>
-            <td>34 F</td>
-            <td>36 F</td>
-            <td>41 F</td>
-            <td>45 F</td>
-            <td>39 F</td>
+            <td><span id="temp1"></span></td>
+            <td><span id="temp2"></span></td>
+            <td><span id="temp3"></span></td>
+            <td><span id="temp4"></span></td>
+            <td><span id="temp5"></span></td>
           </tr>
         </table>
       
@@ -183,13 +184,8 @@
       </p>
     </footer>
     <script src="js/currentdate.js"></script>
-    <script src="js/javascript.js"></script>
     <script src="js/banner.js"></script>
     <script src="js/weather.js"></script>
-  <script>
-    WebFont.load({
-    google: { families: ['Lora']}}
-    );
-  </script>
+ 
   </body>
 </html>
