@@ -1,3 +1,6 @@
+function Menu() {
+    document.getElementById("primaryNav").classList.toggle("hide");
+  }
 function currentDate(){
     let days = [
         "Sunday",
@@ -32,3 +35,4 @@ function currentDate(){
     document.getElementById("currentDate").textContent = fulldate;
   }
   currentDate();
+

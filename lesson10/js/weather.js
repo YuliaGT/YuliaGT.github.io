@@ -56,34 +56,3 @@ fetch(forecastapiURL)
       dayCount++;
     });
   });
-
-/*filter
-     const tempfilter = jsObject.list.filter((x) => x.dt.txt.includes("18:00:00"));
-     console.log(tempfilter);
-
-     jsObject[list]filter.forEach(x => {
-      let d = document.createElement("forcastday");
-      let temp = document.createElement("temp");
-
-  //loop
-  for (let i = 1; i < 6; i++) {
-       
-  thefive.forEach(x => {
-    let d = new Date(x.dt_txt);
- 
-
-
-    document.getElementById("forcastday$(day+1)").textContent = dayofWeek[d.getDay()];
-    document.getElementById("temp$(day+1)").textContent = x.main.temp;
-
-    // icon
-     
-  const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.list[x].weather[0].icon + '.png'; // note the concatenation
-  const desc = jsObject.list[x].weather[0].description; // note how we reference the weather array
-  document.getElementById(icon).setAttribute('src', imagesrc); // focus on the setAttribute() method
-  document.getElementById(icon).setAttribute('alt', desc);
-
-
-    });
-  });
-*/
