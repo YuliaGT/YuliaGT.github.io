@@ -45,7 +45,7 @@ fetch(forecastapiURL)
       document.getElementById(`forcastday${dayCount + 1}`).textContent =
         dayofWeek[d.getDay()];
       document.getElementById(`temp${dayCount + 1}`).textContent =
-        day.main.temp;
+      Math.round(day.main.temp);
       let imagesrc = `https://openweathermap.org/img/wn/${day.weather[0].icon}.png`;
       document
         .getElementById(`icon${dayCount + 1}`)
