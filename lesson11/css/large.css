@@ -1,0 +1,79 @@
+@media only screen and (min-width: 60em) {
+  nav ul {
+    display: grid;
+  }
+  nav ul.hide {
+    display: grid;
+  }
+
+  h1 {
+    color: #774936;
+    font-family: "Kufam", cursive;
+    font-size: 2em;
+  }
+  header {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  body {
+    margin: 2em;
+  }
+  main {
+    padding: 1.5em;
+  }
+
+  a:-webkit-any-link {
+    border: none;
+    padding: 2px;
+    text-align: center;
+  }
+  .summary {
+    position: absolute;
+    font-size: .9em;
+    top: 450px;
+
+    box-shadow: 0 0 30px #111;
+  }
+
+  .forcast {
+    display: table;
+  }
+
+  .forest {
+    float: right;
+    width: 40%;
+    margin: 15px;
+  }
+  .summary {
+    position: absolute;
+    box-shadow: 0 0 30px #111;
+  }
+  .contactinfo {
+    display: flex;
+  }
+  div #social {
+    display: block;
+  }
+  .map {
+    width: 250px;
+  }
+  .Forcast {
+    display: block;
+  }
+  .gallery {
+  
+    grid-template-columns: 1fr 1fr 1fr;
+
+  }
+    /*----------- FORM --------------*/
+    form {
+      max-width: 55em;
+      margin: 0 auto;
+    }
+  
+    form label.top input, form label.top select {
+      font-size: 1.2rem;
+      max-width: 30rem;
+    }
+}

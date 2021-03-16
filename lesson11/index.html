@@ -3,11 +3,11 @@
   <head>
     <meta
       name="description"
-      content="Preston Town page continued for The Weather site project Yulia Tanner WDD230 BYUI"
+      content="Weather site page continued for The Weather site project Yulia Tanner WDD230 BYUI"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     
-    <title>Weather site week 10</title>
+    <title>Weather site week 9</title>
     <meta charset="utf-8" />
 
     <link rel="stylesheet" href="css/normalize.css" />
@@ -20,13 +20,11 @@
       href="https://fonts.googleapis.com/css2?family=Kufam&display=swap"
       rel="stylesheet"
     />
+
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div id="banner"> 
-      
-      <p>Saturday = Preston Pancakes in the Park!</p>
-      <p>9:00 a.m. Saturday at the city park pavilion</p>
-    </div>
+   
     <header>
       <section class="headings">
         <div class="box1">
@@ -42,71 +40,29 @@
       <button onclick="Menu()">&#9776;</button>
 
       <ul id="primaryNav" class="hide">
-        <li><a href="../lesson9/index.html">Home page</a></li>
-        <li style="font-style: italic" class="active"><a href="preston-10.html">Preston</a></li>
-        <li><a href="#">Soda Springs</a></li>
-        <li><a href="#">Fish Haven</a></li>
-        <li><a href="../lesson8/stormcenter.html">Storm Center</a></li>
-        <li><a href="../lesson7/gallery-7.html">Gallery</a></li>
+        <li style="font-style: italic" class="active">Home page</li>
+        <li ><a href="preston.html">Preston</a></li>
+        <li><a href="sodaSprings.html">Soda Springs</a></li>
+        <li><a href="fishHaven.html">Fish Haven</a></li>
+        <li><a href="stormcenter.html">Storm Center</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
       </ul>
     </nav>
     <main>
-      <h2>Preston Idaho</h2>
-      <div class="hero-summary">
-        <div class="hero">
+      <h2>Welcome</h2>
+     
+   
           <picture class="mainimg">
             <source media="(max-width: 500px)" srcset="images/small.jpg">
               <source media="(max-width: 800px)" srcset="images/medium.jpg">
                 <source media="(max-width: 1200px)" srcset="images/large.jpg">
               <img src="images/large.jpg" alt="view">
           </picture>
-          <section class="summary">
-            <h3 >Weather Summary</h3>
-            <section class="summaryfield">
-            <p >Currently: </p>
-            <p class="currently"><span id="currentlyvalue"></span></p>
-            <p >Temperature: </p>
-            <p class="temperature"><span id="tempvalue"></span>&deg; F</p>
-            <p >Wind speed: </p>
-            <p class="speed"><span id="speedvalue"></span> mph</p>
-            <p >Humidity: </p>
-            <p class="humidity"><span id="humidityvalue"></span> %</p>
-            <p >Wind Chill: </p>
-            <p class="chill"><span id="chillvalue"></span>&deg; F</p>
-          </section>
-          </section>
-        </div>
-      </div>
-      <div class="Forcast">
-        <h4>5 day forecast</h4>
-        
-      </div>
-        <table id="forcast">
-          <tr>
-            <th><span id="forcastday1"></span></th>
-            <th><span id="forcastday2"></span></th>
-            <th><span id="forcastday3"></span></th>
-            <th><span id="forcastday4"></span></th>
-            <th><span id="forcastday5"></span></th>
-          </tr>
-          <tr>
-            <td><img id="icon1" src="images/snowflake.png" alt=""></td>
-            <td><img id="icon2" src="images/snowflake.png"  alt=""></td>
-            <td><img id="icon3" src="images/snowflake.png"  alt=""></td>
-            <td><img id="icon4" src="images/snowflake.png"  alt=""></td>
-            <td><img id="icon5" src="images/snowflake.png" alt=""></td>
-          </tr>
-          <tr>
-            <td><span id="temp1"></span>&deg; F</td>
-            <td><span id="temp2"></span>&deg; F</td>
-            <td><span id="temp3"></span>&deg; F</td>
-            <td><span id="temp4"></span>&deg; F</td>
-            <td><span id="temp5"></span>&deg; F</td>
-          </tr>
-        </table>
+          
       
-      <br>
-      <br>
+          <div class="maintowns"></div>
+          <br>
+          <br>
       <div class="article">
         <h4>Snow on a road</h4>
         <img class="forest"
@@ -134,6 +90,8 @@
       </div>
       <br>
       <br>
+     
+     
       <div class="contacts">
         <section class="contactinfo">
           <div class="box3">
@@ -184,8 +142,8 @@
       </p>
     </footer>
     <script src="js/currentdate.js"></script>
-    <script src="js/banner.js"></script>
-    <script src="js/weather.js"></script>
- 
+    <script src="js/jsonHome.js"></script>
+
+
   </body>
 </html>

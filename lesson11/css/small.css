@@ -1,0 +1,332 @@
+/*----------- BODY --------------*/
+body {
+  font-family: "Lora", sans-serif;
+  margin: 0.5em;
+}
+/*----------- HEADER --------------*/
+h1 {
+  color: #774936;
+  font-family: "Kufam", cursive;
+  font-size: 1.3em;
+}
+header {
+  display: flex;
+  background-color: #efcdbd;
+  color: #774936;
+
+  border: 1px solid #322420;
+
+  justify-content: center;
+  padding: 2px;
+}
+.headings {
+  display: flex;
+}
+#banner {
+  text-align: center;
+  background: rgb(243, 178, 93);
+  font-size: 1.3em;
+  display: none;
+}
+
+.logo {
+  padding: 20px;
+}
+/*----------- NAVIGATION --------------*/
+
+nav ul li.active a {
+  color: #fff;
+  font-size: 1em;
+}
+
+nav ul {
+  display: block;
+  grid-template-columns: repeat(auto-fit, minmax(5em, 1fr));
+  list-style-type: none;
+  font-size: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  display: block;
+  padding: 0.6rem 2%;
+  color: rgba(255, 255, 255, 0.8);
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+nav ul.hide {
+  display: none;
+}
+nav a:hover {
+  text-decoration: none;
+
+  color: #f25d1f;
+}
+#byuilink {
+  color: #322420;
+  font-size: 1em;
+}
+.navigation {
+  background-color: #774936;
+  color: white;
+  font-size: 0.6em;
+  padding: 0.1rem;
+}
+a:-webkit-any-link {
+  color: white;
+  font-size: 0.7em;
+}
+
+nav button {
+  margin: 0.2rem 2%;
+  background-color: transparent;
+  border: none;
+  font-size: 1.9rem;
+  color: #efcdbd;
+}
+/*----- Clearfix: Force an Element not to collapse -----*/
+.navigation:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/*----------- MAIN --------------*/
+h2 {
+  color: #774936;
+  font-family: "Kufam", cursive;
+  font-size: 1.5em;
+  text-align: center;
+}
+h4 {
+  color: #774936;
+  font-family: "Kufam", cursive;
+  font-size: 1.3em;
+  text-align: center;
+}
+p {
+  font-size: 1em;
+}
+
+
+
+.span {
+  font-weight: 700;
+}
+.summaryfield {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: .3em;
+}
+.summary {
+ 
+  top: 500px;
+  right: 80px;
+  border: 1px solid #000;
+  padding: 1em;
+  box-shadow: none;
+  color: #322420;
+  background: #efcdbd;
+}
+#forcast {
+  border-collapse: collapse;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid #000;
+  box-shadow: 0 0 30px #111;
+}
+table {
+  display: none;
+}
+
+#forcast td,
+#forcast th {
+  border: 1px solid #322420;
+
+  padding: 8px;
+}
+
+#forcast th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  
+  background-color: #efcdbd;
+  color: #322420;
+}
+
+.forest {
+  border-radius: 10px;
+border: 1px solid #000;
+  box-shadow: 0 0 30px #111;
+  width: 100%;
+}
+.article {
+  border: 1px solid #000;
+
+  padding: 1.5rem;
+  background-color: #efcdbd;
+}
+
+.Forcast {
+  display: none;
+}
+
+img {
+  max-width: 100%;
+}
+img[data-src] {
+  filter: blur(0.2em);
+}
+
+.gallery img {
+  filter: blur(0em);
+  transition: filter 0.5s;
+  
+ 
+}
+.gallery {
+  display: grid;
+  text-align: center;
+  background-color: #efcdbd;
+  grid-template-columns: 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px; 
+ 
+  
+}
+.gallery img {width: 100%;}
+
+figcaption{
+  background-color: #774936;
+  padding: 1em;
+  
+  color: white;
+  
+}
+/*----------- FORM --------------*/
+form fieldset {
+  margin: 2rem 0;
+  border: 1px solid #774936;
+  border-radius: 10px;
+  padding: 0.5rem 2%;
+ 
+}
+form label.top,
+form div {
+  display: block;
+  padding-top: 1rem;
+  color: #774936;
+  font-size: 1rem;
+}
+form label.top input,
+form label.top select,
+form label.top textarea {
+  -webkit-appearance: none;
+  display: block;
+  font-size: 1rem;
+  border: solid 1px #774936;
+  border-radius: 4px;
+  padding: 0.75rem;
+  color: #774936;
+  width: 100%;
+  max-width: 20rem;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+form label.sbs {
+  display: block;
+  padding: 0.75rem;
+  color: #774936;
+}
+
+form label.top input:required {
+  border-left: #f25d1f solid 4px;
+}
+form label.top input:required:valid {
+  border-left: #774936 solid 4px;
+  
+}
+
+
+form input.submitBtn {
+  border: none;
+  background-color: #774936;
+  color: white;
+  border-radius: 0.6rem;
+  padding: 1rem;
+  margin: 0 0 2rem 5%;
+  width: 96%;
+  max-width: 20rem;
+}
+label.stormSeverity {
+  
+    display: block;
+    padding-top: 1rem;
+    color: #774936;
+    font-size: 1rem;
+ 
+   
+}
+#stormSeverity {
+  margin: 0 0 2rem 1%;
+}
+/*----------- TOWNS --------------*/
+.maintowns{
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+  width: 100%;
+  border: 1.5px solid rgba(0, 0, 0, 0.3);
+
+}
+ 
+.maintowns section {
+  border: 1.5px solid rgba(0, 0, 0, 0.3);
+  background-color: #cfd5db;
+  padding: 20px;
+  
+}
+
+.maintowns img {
+  border-radius: 10px;
+  box-shadow: 0 0 30px #111;
+  width: 100%;
+}
+/*----------- WIREFRAMES --------------*/
+.wireframes {
+  display: grid;
+  grid-template-columns: 1fr;
+  font-size: 1.5em;
+}
+/*----------- CONTACTS --------------*/
+.facebook,
+.youtube,
+.instagram {
+  border-radius: 30px;
+}
+.box4 {
+  margin: 20px;
+  margin-left: 30px;
+}
+.map {
+  border-radius: 10px;
+  width: 100%;
+}
+.contactinfo {
+  background-color: #efcdbd;
+  color: #774936;
+  border: 1px solid #322420;
+  align-items: center;
+  justify-content: center;
+}
+/*----------- FOOTER --------------*/
+footer {
+  background-color: #efcdbd;
+  color: #322420;
+  text-align: center;
+  padding: 2px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 150px;
+  border: 1px solid #322420;
+}

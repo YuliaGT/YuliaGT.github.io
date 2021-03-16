@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta
+      name="description"
+      content="Gallery for The Weather site project Yulia Tanner WDD230 BYUI"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+   
+    <title>Weather site week 7</title>
+    <meta charset="utf-8" />
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    
+    <link rel="shortcut icon" href="../lesson5/favicon.ico" />
+ 
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kufam&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="banner"> 
+      
+      <p>Saturday = Preston Pancakes in the Park!</p>
+      <p>9:00 a.m. Saturday at the city park pavilion</p>
+    </div>
+    <header>
+      <section class="headings">
+        <div class="box1">
+          <img class="logo" src="../lesson6/images/icon.png" alt="Logo image" width="90" />
+        </div>
+        <div class="box2">
+          <h1>Sun in Utah</h1>
+          <p>Utah always has the perfect weather</p>
+        </div>
+      </section>
+    </header>
+    <nav class="navigation">
+      <button onclick="Menu()">&#9776;</button>
+
+      <ul id="primaryNav" class="hide">
+        <li><a href="index.html">Home page</a></li>
+        <li><a href="preston.html">Preston</a></li>
+        <li><a href="sodaSprings.html">Soda Springs</a></li>
+        <li><a href="fishHaven.html">Fish Heaven</a></li>
+        <li><a href="stormcenter.html">Storm Center</a></li>
+        <li style="font-style: italic" class="active"><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+    <main>
+        <h2>Gallery</h2>
+        <div class="gallery">
+                  <figure class=fornav><img src="images/placeholder.jpg" data-src='images/foggy.jpg' alt='foggy'>
+                <figcaption>A foggy forest</figcaption></figure>
+                  <figure class=fornav><img src="images/placeholder.jpg" data-src='images/north.jpg' alt='north'>
+                <figcaption>Northern Lights</figcaption></figure>
+                  <figure class=fornav><img src="images/placeholder.jpg" data-src='images/rain.jpg' alt='rain'>
+                <figcaption>Raindrops</figcaption></figure>
+                  <figure class=fornav><img src="images/placeholder.jpg" data-src='images/rainbow.jpg' alt='rainbow'>
+                <figcaption>Rainbow on a field</figcaption></figure>
+                  <figure class=fornav><img src="images/placeholder.jpg" data-src='images/stars.jpg' alt='stars'>
+                <figcaption>Milky Way</figcaption></figure>
+                  <figure class=fornav><img src="images/placeholder.jpg" data-src='images/storm.jpg' alt='storm'>
+                <figcaption>Thunderstorm in the city</figcaption></figure>
+                  <figure class=fornav><img src="images/placeholder.jpg" data-src='images/sun.jpg' alt='sun'>
+                <figcaption>Sun and the clouds</figcaption></figure>
+                  <figure class=fornav><img src="images/placeholder.jpg" data-src='images/tornado.jpg' alt='tornado'>
+                <figcaption>Tornado at the Village</figcaption></figure>
+                  <figure ><img src="images/placeholder.jpg" data-src='images/winter.jpg' alt='winter'>
+                <figcaption>Snow covered trees</figcaption></figure>
+        </div>
+      <br>
+      <br>
+      <div class="contacts">
+        <section class="contactinfo">
+          <div class="box3">
+            <img class="map" src="images/map.jpg" alt="map"  />
+          </div>
+          <div class="box4">
+            <h4>Contact information</h4>
+            <p> 
+                <a href="https://www.google.com/maps/place/%D0%9F%D1%80%D0%B5%D1%81%D1%82%D0%BE%D0%BD,+%D0%90%D0%B9%D0%B4%D0%B0%D1%85%D0%BE+83263/@42.0997416,-111.9153444,13z/data=!3m1!4b1!4m5!3m4!1s0x8754f78c7cda6c31:0xf1b3b4fc465a4a3f!8m2!3d42.0963133!4d-111.8766173" target="_blank"><img src="images/maps-and-flags.png" alt="map icon" width="15"></a>
+                123 E 456 N Preston </p>
+<p><img  src="../lesson6/images/phone-call.png" alt="phone" width="15" />
+ 999-999-9999</p>
+<p><img  src="../lesson6/images/envelope.png" alt="email" width="15" />
+   suninutah@gmail.com</p>
+<div id="social" >
+  <a href="https://www.facebook.com" target="_blank"
+    ><img class="facebook"
+    src="../lesson6/images/facebook.png"
+      alt="Facebook" width="50"
+  /></a>
+  <a href="https://www.instagram.com" target="_blank"
+    ><img class="instagram"
+    src="../lesson6/images/instagram.png"
+      alt="Instagram" width="50"
+  /></a>
+  <a href="https://www.youtube.com" target="_blank"
+    ><img class="youtube"
+    src="../lesson6/images/youtube.png"
+      alt="YouTube" width="50"
+  /></a>
+</div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <p>
+        &copy;2021 | Yulia Tanner | Orem, Utah |
+        <a id="byuilink" href="https://www.byui.edu/online"
+          >BYUI Online Learning</a
+        >
+      </p>
+      <p>
+        Current Date:
+        <span id="currentDate"></span>
+
+        <br />
+      </p>
+    </footer>
+    <script src="js/currentdate.js"></script>
+    <script src="js/javascript.js"></script>
+    <script src="js/banner.js"></script>
+    <script src="js/gallery.js"></script>
+
+  </body>
+</html>

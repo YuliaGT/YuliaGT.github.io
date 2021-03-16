@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta
+      name="description"
+      content="Storm Center page for The Weather site project Yulia Tanner WDD230 BYUI"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Weather site week 8</title>
+    <meta charset="utf-8" />
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <link rel="shortcut icon" href="../lesson5/favicon.ico" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kufam&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="banner">
+      <p>Saturday = Preston Pancakes in the Park!</p>
+      <p>9:00 a.m. Saturday at the city park pavilion</p>
+    </div>
+    <header>
+      <section class="headings">
+        <div class="box1">
+          <img class="logo" src="images/icon.png" alt="Logo image" width="90" />
+        </div>
+        <div class="box2">
+          <h1>Sun in Utah</h1>
+          <p>Utah always has the perfect weather</p>
+        </div>
+      </section>
+    </header>
+    <nav class="navigation">
+      <button onclick="Menu()">&#9776;</button>
+
+      <ul id="primaryNav" class="hide">
+        <li><a href="index.html">Home page</a></li>
+        <li><a href="preston.html">Preston</a></li>
+        <li><a href="sodaSprings.html">Soda Springs</a></li>
+        <li><a href="fishHaven.html">Fish Heaven</a></li>
+        <li style="font-style: italic" class="active"><a href="stormcenter.html">Storm Center</a></li>
+        <li ><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+    <main>
+      <div id="stormcenter">
+        <form method="get" action="thanks.html">
+          <fieldset>
+            <legend>Your Personal Information</legend>
+            <label class="top"
+              >Full Name*  (Min 5 characters)<input type="text" name="fname" required pattern="[a-zA-Z\s]{5,}"
+             
+            /></label>
+            <label class="top"
+              >Phone*
+              <input type="tel" name="phone" placeholder="1235551234" required
+             
+              /></label>
+            <label class="top"
+              >Email
+              <input type="email" name="email" placeholder="someone@gmail.com"
+            /></label>
+            <label class="top"
+              >Zip Code* <input type="number" name="zip" required
+            /></label>
+          </fieldset>
+
+          <fieldset>
+            <legend>About Storm</legend>
+            <label class="top"
+              >Storm Date <input type="date" name="StormDate"
+            /></label>
+            <label class="top"
+              >Storm Type <input list="stormType" class />
+              <datalist id="stormType">
+                <option value="Flash Flood"></option>
+                <option value="Hail"></option>
+                <option value="Hurricane"></option>
+                <option value="Thunderstorm"></option>
+                <option value="Tornado"></option>
+              </datalist>
+            </label>
+
+            <label  class="stormSeverity"
+              >Storm Severity:
+         
+              <input
+                type="range"
+                name="severity"
+                id="stormSeverity"
+                value="5"
+                min="1"
+                max="10"
+                step="1"
+                list="tickmarks"
+                oninput="adjustSeverity(this.value)"
+                onchange="adjustSeverity(this.value)"
+              />
+              <span id="ratingvalue"> 5  </span>
+            </label>
+
+            <datalist id="tickmarks">
+              <option value="0"></option>
+              <option value="1"></option>
+              <option value="2"></option>
+              <option value="3"></option>
+              <option value="4"></option>
+              <option value="5"></option>
+              <option value="6"></option>
+              <option value="7"></option>
+              <option value="8"></option>
+              <option value="9"></option>
+              <option value="10"></option>
+            </datalist>
+
+            <label class="top"
+              >Storm Regeon
+              <select name="subject">
+                <option value="">Select Regeon &#9662;</option>
+                <option value="fish">Fish Haven</option>
+                <option value="preston">Preston</option>
+                <option value="soda">Soda Springs</option>
+              </select>
+            </label>
+            <div>Are You In Danger</div>
+            <label class="sbs"
+              ><input type="radio" name="danger" value="yes" /> Yes</label
+            >
+            <label class="sbs"
+              ><input type="radio" name="danger" value="yes" /> No</label
+            >
+            <label class="sbs"
+              ><input type="radio" name="danger" value="yes" /> Maybe</label
+            >
+
+            <label class="top"
+              >Additional information
+              <textarea name="additionalInfo"></textarea>
+            </label>
+          </fieldset>
+
+          <input type="submit" value="Report Storm" class="submitBtn" />
+        </form>
+      </div>
+      <div class="contacts">
+        <section class="contactinfo">
+          <div class="box3">
+            <img class="map" src="images/map.jpg" alt="map" />
+          </div>
+          <div class="box4">
+            <h4>Contact information</h4>
+            <p>
+              <a
+                href="https://www.google.com/maps/place/%D0%9F%D1%80%D0%B5%D1%81%D1%82%D0%BE%D0%BD,+%D0%90%D0%B9%D0%B4%D0%B0%D1%85%D0%BE+83263/@42.0997416,-111.9153444,13z/data=!3m1!4b1!4m5!3m4!1s0x8754f78c7cda6c31:0xf1b3b4fc465a4a3f!8m2!3d42.0963133!4d-111.8766173"
+                target="_blank"
+                ><img src="images/maps-and-flags.png" alt="map icon" width="15"
+              /></a>
+              123 E 456 N Preston
+            </p>
+            <p>
+              <img src="images/phone-call.png" alt="phone" width="15" />
+              999-999-9999
+            </p>
+            <p>
+              <img src="images/envelope.png" alt="email" width="15" />
+              suninutah@gmail.com
+            </p>
+            <div id="social">
+              <a href="https://www.facebook.com" target="_blank"
+                ><img
+                  class="facebook"
+                  src="https://cdn.glitch.com/6fd3c162-789a-4479-b944-6a3e79bac7e1%2Ffacebook.png?v=1589429107536"
+                  alt="Facebook"
+                  width="50"
+              /></a>
+              <a href="https://www.instagram.com" target="_blank"
+                ><img
+                  class="instagram"
+                  src="https://cdn.glitch.com/6fd3c162-789a-4479-b944-6a3e79bac7e1%2Finstagram.png?v=1589429111352"
+                  alt="Instagram"
+                  width="50"
+              /></a>
+              <a href="https://www.youtube.com" target="_blank"
+                ><img
+                  class="youtube"
+                  src="https://cdn.glitch.com/6fd3c162-789a-4479-b944-6a3e79bac7e1%2Fyoutube.png?v=1589429114388"
+                  alt="YouTube"
+                  width="50"
+              /></a>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <p>
+        &copy;2021 | Yulia Tanner | Orem, Utah |
+        <a id="byuilink" href="https://www.byui.edu/online"
+          >BYUI Online Learning</a
+        >
+      </p>
+      <p>
+        Current Date:
+        <span id="currentDate"></span>
+
+        <br />
+      </p>
+    </footer>
+    <script src="js/currentdate.js"></script>
+    <script src="js/javascript.js"></script>
+    <script src="js/banner.js"></script>
+    <script>
+      WebFont.load({
+        google: { families: ["Lora"] },
+      });
+    </script>
+  </body>
+</html>

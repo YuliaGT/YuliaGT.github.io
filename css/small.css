@@ -24,6 +24,9 @@ ul {
   font-family: 'Kufam', cursive;
   font-size: 1.4em;
 }
+li {
+  margin: 7px;
+}
 img {
   width: 150px;
   height: auto;
