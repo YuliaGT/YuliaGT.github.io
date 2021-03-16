@@ -119,13 +119,17 @@ p {
 }
 .summary {
  
-  top: 500px;
-  right: 80px;
+  top: 400px;
+  right: 150px;
   border: 1px solid #000;
-  padding: 1em;
+  padding: .5em;
   box-shadow: none;
   color: #322420;
   background: #efcdbd;
+
+}
+.summary p {
+  margin: .3em;
 }
 #forcast {
   border-collapse: collapse;

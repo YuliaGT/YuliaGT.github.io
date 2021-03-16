@@ -17,10 +17,11 @@
   }
 
   body {
-    margin: 2em;
+    margin: 3em;
   }
   main {
     padding: 1.5em;
+    margin: 3em;
   }
 
   a:-webkit-any-link {
