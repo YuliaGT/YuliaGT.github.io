@@ -149,12 +149,14 @@ table {
 
   padding: 8px;
 }
-
+#forcast td {
+  background-color: #efcdbd;
+}
 #forcast th {
   padding-top: 12px;
   padding-bottom: 12px;
   
-  background-color: #efcdbd;
+  background-color: #fab391;
   color: #322420;
 }
 
