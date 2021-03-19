@@ -1,5 +1,5 @@
 
-/*----------- JSON --------------*/
+/*----------- JSON home page--------------*/
 const requestURL = "https://byui-cit230.github.io/weather/data/towndata.json";
 
 fetch(requestURL)
@@ -53,3 +53,4 @@ fetch(requestURL)
       document.querySelector("div.maintowns").appendChild(card);
     });
   });
+  
