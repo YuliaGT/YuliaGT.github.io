@@ -19,7 +19,8 @@
 
   main {
     padding: 1.5em;
-    margin: 3em;
+    margin-left: 3em;
+    margin-right: 3em;
   }
 
   a:-webkit-any-link {
