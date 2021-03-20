@@ -143,34 +143,12 @@ h5 {
   margin: .1em;
 }
 
-#forcast {
-  border-collapse: collapse;
-  width: 70%;
-  margin: 0 auto;
-  text-align: center;
-  border: 1px solid #000;
-  box-shadow: 0 0 30px #111;
-}
+
 table {
   display: none;
 }
 
-#forcast td,
-#forcast th {
-  border: 1px solid #322420;
 
-  padding: 8px;
-}
-#forcast td {
-  background-color: #efcdbd;
-}
-#forcast th {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  
-  background-color: #fab391;
-  color: #322420;
-}
 
 .forest {
   border-radius: 10px;

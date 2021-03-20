@@ -49,7 +49,7 @@
   .summary {
     position: absolute;
     box-shadow: 0 0 30px #111;
-    top: 470px;
+    top: 450px;
     font-size: 0.8em;
 
   }
@@ -70,6 +70,30 @@
   .Forcast {
     display: block;
   }
+  #forcast td,
+#forcast th {
+  border: 1px solid #322420;
+
+  padding: 8px;
+}
+#forcast td {
+  background-color: #efcdbd;
+}
+#forcast th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  
+  background-color: #fab391;
+  color: #322420;
+}
+#forcast {
+  border-collapse: collapse;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid #000;
+  box-shadow: 0 0 30px #111;
+}
   .gallery {
     grid-template-columns: 1fr 1fr;
   }
