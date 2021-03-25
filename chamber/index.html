@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta
+    name="description"
+    content="Chamber of Commerce website project Yulia Tanner WDD230 BYUI"
+  />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  
+  <title>Home page</title>
+  <meta charset="utf-8" />
+
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/small.css" />
+  <link rel="stylesheet" href="css/medium.css" />
+  <link rel="stylesheet" href="css/large.css" />
+  <link rel="shortcut icon" href="images/favicon.ico" />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=PT+Sans&display=swap');
+    </style>
+      </head>
+      <body>
+        <header>
+            <section class="headings">
+                <div class="box1">
+                  <img class="logo" src="images/icon.png" alt="Logo image" width="90" />
+                </div>
+                <div class="box2">
+                  <h1>Orem Chamber of Commerce</h1>
+                </div>
+              </section>
+            <div id="social" >
+                <a href="https://www.facebook.com" target="_blank"
+                  ><img class="facebook"
+                    src="https://cdn.glitch.com/6fd3c162-789a-4479-b944-6a3e79bac7e1%2Ffacebook.png?v=1589429107536"
+                    alt="Facebook" width="50"
+                /></a>
+                <a href="https://www.instagram.com" target="_blank"
+                  ><img class="instagram"
+                    src="https://cdn.glitch.com/6fd3c162-789a-4479-b944-6a3e79bac7e1%2Finstagram.png?v=1589429111352"
+                    alt="Instagram" width="50"
+                /></a>
+                <a href="https://www.youtube.com" target="_blank"
+                  ><img class="youtube"
+                    src="https://cdn.glitch.com/6fd3c162-789a-4479-b944-6a3e79bac7e1%2Fyoutube.png?v=1589429114388"
+                    alt="YouTube" width="50"
+                /></a>
+              </div>
+        </header>
+        <nav class="navigation">
+            <button onclick="Menu()">&#9776;</button>
+      
+            <ul id="primaryNav" class="hide">
+              <li style="font-style: italic" class="active">Home</li>
+              <li ><a href="orem.html">Orem</a></li>
+              <li><a href="join.html">Join</a></li>
+              <li><a href="directory.html">Directory</a></li>
+              <li><a href="contacts.html">Contacts</a></li>
+            </ul>
+          </nav>
+          <main>
+            <picture class="mainimg">
+                <source media="(max-width: 500px)" srcset="images/small.png">
+                  <source media="(max-width: 800px)" srcset="images/medium.png">
+                    <source media="(max-width: 1200px)" srcset="images/large.png">
+                  <img src="images/large.png" alt="Tulips">
+              </picture> 
+<section id="first"></section>
+<div id="purpose"> 
+    <h2>Purpose</h2>
+    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+        minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+        aliquip ex ea commodo consequat. Duis aute irure dolor in
+        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. </p>
+    </div>
+<div id="events"> </div>
+<div id="3dayforecast"> 
+              <table id="forcast">
+                <tr>
+                  <th class="weekday" ><span id="forcastday1"></span></th>
+                  <th class="weekday"><span id="forcastday2"></span></th>
+                  <th class="weekday"><span id="forcastday3"></span></th>
+
+                </tr>
+                <tr>
+                  <td><img id="icon1" src="images/sun.png" alt="weather icon"></td>
+                  <td><img id="icon2" src="images/sun.png"  alt="weather icon"></td>
+                  <td><img id="icon3" src="images/sun.png"  alt="weather icon"></td>
+    
+                </tr>
+                <tr>
+                  <td><span id="temp1"></span>&deg; F</td>
+                  <td><span id="temp2"></span>&deg; F</td>
+                  <td><span id="temp3"></span>&deg; F</td>
+           
+                </tr>
+              </table>
+            </div>
+        </section> 
+        <section id="second">
+            <div id="action">
+                <h2>Call to action</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            </div>
+            <div id="pic1">
+                <img class="homeimg" src="images/market.jpeg" alt="oranges" />
+            </div>
+            <div id="pic2">
+                <img class="homeimg" src="images/fabric.jpeg" alt="fabrics and templates" /> 
+            </div>
+        </section>
+        <section id="third">
+            <div id="business1">
+                <h2>Business 1</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            </div>
+            <div id="business2">
+                <h2>Business 2</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            </div>
+            <div id="business3">
+                <h2>Business 3</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            </div>
+        </section>
+          </main>
+
+          <footer>
+                <section class="information">
+                  <div id="contact">
+                    <h2>Contact information</h2>
+            <p> 
+              <a href="https://www.google.com/maps/place/%D0%9F%D1%80%D0%B5%D1%81%D1%82%D0%BE%D0%BD,+%D0%90%D0%B9%D0%B4%D0%B0%D1%85%D0%BE+83263/@42.0997416,-111.9153444,13z/data=!3m1!4b1!4m5!3m4!1s0x8754f78c7cda6c31:0xf1b3b4fc465a4a3f!8m2!3d42.0963133!4d-111.8766173" target="_blank"><img src="images/maps-and-flags.png" alt="map icon" width="15"></a>
+              123 E 456 N Preston </p>
+<p><img  src="images/phone-call.png" alt="phone" width="15" />
+ 999-999-9999</p>
+<p><img  src="images/envelope.png" alt="email" width="15" />
+   suninutah@gmail.com</p>
+                  </div>
+
+                  <div class="copyright">
+                    <p>
+                        &copy;2021 | Yulia Tanner | Orem, Utah |
+                      </p>
+                      <p>
+                        Current Date:
+                        <span id="currentDate"></span>
+                      </p>
+                  </div>
+                    
+ 
+            
+          </footer>
+          <script src="js/currentdate.js"></script>
+    </body>
+     
+      </html>
