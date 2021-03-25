@@ -5,5 +5,20 @@
   nav ul.hide {
     display: grid;
   }
-
+  header {
+    position: fixed;
+    display: block;
+  }
+  .headings {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  nav button {
+    display: none;
+  }
+  /*
+  .navigation {
+    position: fixed;
+  }
+  */
 }

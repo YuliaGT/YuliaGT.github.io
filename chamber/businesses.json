@@ -1,0 +1,97 @@
+{
+    "businesses": [
+      {
+        "business": "1",
+        "city": "Smith",
+        "address": "23 December 1805",
+        "phone": "27 June 1844",
+        "website": 14,
+        "logo": "images/.jpg",
+        "events": [
+            "February 29: Geyser Song Day",
+            "May 1-6: Days of May Celebration",
+            "October 15-16: Octoberfest"
+          ]
+      },
+      {
+        "business": "2",
+        "city": "Smith",
+        "address": "23 December 1805",
+        "phone": "27 June 1844",
+        "website": 14,
+        "logo": "images/.jpg",
+        "events": [
+            "February 29: Geyser Song Day",
+            "May 1-6: Days of May Celebration",
+            "October 15-16: Octoberfest"
+          ]
+      },
+      {
+        "business": "3",
+        "city": "Smith",
+        "address": "23 December 1805",
+        "phone": "27 June 1844",
+        "website": 14,
+        "logo": "images/.jpg",
+        "events": [
+            "February 29: Geyser Song Day",
+            "May 1-6: Days of May Celebration",
+            "October 15-16: Octoberfest"
+          ]
+      },
+      {
+        "business": "4",
+        "city": "Smith",
+        "address": "23 December 1805",
+        "phone": "27 June 1844",
+        "website": 14,
+        "logo": "images/.jpg",
+        "events": [
+            "February 29: Geyser Song Day",
+            "May 1-6: Days of May Celebration",
+            "October 15-16: Octoberfest"
+          ]
+      },
+      {
+        "business": "5",
+        "city": "Smith",
+        "address": "23 December 1805",
+        "phone": "27 June 1844",
+        "website": 14,
+        "logo": "images/.jpg",
+        "events": [
+            "February 29: Geyser Song Day",
+            "May 1-6: Days of May Celebration",
+            "October 15-16: Octoberfest"
+          ]
+      },
+      {
+        "business": "6",
+        "city": "Smith",
+        "address": "23 December 1805",
+        "phone": "27 June 1844",
+        "website": 14,
+        "logo": "images/.jpg",
+        "events": [
+            "February 29: Geyser Song Day",
+            "May 1-6: Days of May Celebration",
+            "October 15-16: Octoberfest"
+          ]
+      },
+      {
+        "business": "7",
+        "city": "Smith",
+        "address": "23 December 1805",
+        "phone": "27 June 1844",
+        "website": 14,
+        "logo": "images/.jpg",
+        "events": [
+            "February 29: Geyser Song Day",
+            "May 1-6: Days of May Celebration",
+            "October 15-16: Octoberfest"
+          ]
+      }
+    
+ 
+    ]
+  }

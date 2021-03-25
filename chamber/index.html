@@ -22,42 +22,44 @@
       <body>
         <header>
             <section class="headings">
-                <div class="box1">
+                <div id="box1">
                   <img class="logo" src="images/icon.png" alt="Logo image" width="90" />
                 </div>
-                <div class="box2">
+                <div id="box2">
                   <h1>Orem Chamber of Commerce</h1>
                 </div>
+                <div id="social" >
+                    <a href="https://www.facebook.com" target="_blank"
+                      ><img class="facebook"
+                        src="https://cdn.glitch.com/6fd3c162-789a-4479-b944-6a3e79bac7e1%2Ffacebook.png?v=1589429107536"
+                        alt="Facebook" width="50"
+                    /></a>
+                    <a href="https://www.instagram.com" target="_blank"
+                      ><img class="instagram"
+                        src="https://cdn.glitch.com/6fd3c162-789a-4479-b944-6a3e79bac7e1%2Finstagram.png?v=1589429111352"
+                        alt="Instagram" width="50"
+                    /></a>
+                    <a href="https://www.youtube.com" target="_blank"
+                      ><img class="youtube"
+                        src="https://cdn.glitch.com/6fd3c162-789a-4479-b944-6a3e79bac7e1%2Fyoutube.png?v=1589429114388"
+                        alt="YouTube" width="50"
+                    /></a>
+                  </div>
               </section>
-            <div id="social" >
-                <a href="https://www.facebook.com" target="_blank"
-                  ><img class="facebook"
-                    src="https://cdn.glitch.com/6fd3c162-789a-4479-b944-6a3e79bac7e1%2Ffacebook.png?v=1589429107536"
-                    alt="Facebook" width="50"
-                /></a>
-                <a href="https://www.instagram.com" target="_blank"
-                  ><img class="instagram"
-                    src="https://cdn.glitch.com/6fd3c162-789a-4479-b944-6a3e79bac7e1%2Finstagram.png?v=1589429111352"
-                    alt="Instagram" width="50"
-                /></a>
-                <a href="https://www.youtube.com" target="_blank"
-                  ><img class="youtube"
-                    src="https://cdn.glitch.com/6fd3c162-789a-4479-b944-6a3e79bac7e1%2Fyoutube.png?v=1589429114388"
-                    alt="YouTube" width="50"
-                /></a>
-              </div>
+              <nav class="navigation">
+                <button onclick="Menu()">&#9776;</button>
+          
+                <ul id="primaryNav" class="hide">
+                  <li style="font-style: italic" class="active">Home</li>
+                  <li ><a href="orem.html">Orem</a></li>
+                  <li><a href="join.html">Join</a></li>
+                  <li><a href="directory.html">Directory</a></li>
+                  <li><a href="contacts.html">Contacts</a></li>
+                </ul>
+              </nav>
+    
         </header>
-        <nav class="navigation">
-            <button onclick="Menu()">&#9776;</button>
-      
-            <ul id="primaryNav" class="hide">
-              <li style="font-style: italic" class="active">Home</li>
-              <li ><a href="orem.html">Orem</a></li>
-              <li><a href="join.html">Join</a></li>
-              <li><a href="directory.html">Directory</a></li>
-              <li><a href="contacts.html">Contacts</a></li>
-            </ul>
-          </nav>
+        
           <main>
             <picture class="mainimg">
                 <source media="(max-width: 500px)" srcset="images/small.png">
@@ -77,6 +79,7 @@
     </div>
 <div id="events"> </div>
 <div id="3dayforecast"> 
+    <h2>3 day Forecast</h2>
               <table id="forcast">
                 <tr>
                   <th class="weekday" ><span id="forcastday1"></span></th>
@@ -104,11 +107,9 @@
                 <h2>Call to action</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                     eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    <input type="submit" value="Join us today" class="submitBtn" />
             </div>
             <div id="pic1">
-                <img class="homeimg" src="images/market.jpeg" alt="oranges" />
-            </div>
-            <div id="pic2">
                 <img class="homeimg" src="images/fabric.jpeg" alt="fabrics and templates" /> 
             </div>
         </section>
@@ -134,21 +135,19 @@
           <footer>
                 <section class="information">
                   <div id="contact">
-                    <h2>Contact information</h2>
             <p> 
               <a href="https://www.google.com/maps/place/%D0%9F%D1%80%D0%B5%D1%81%D1%82%D0%BE%D0%BD,+%D0%90%D0%B9%D0%B4%D0%B0%D1%85%D0%BE+83263/@42.0997416,-111.9153444,13z/data=!3m1!4b1!4m5!3m4!1s0x8754f78c7cda6c31:0xf1b3b4fc465a4a3f!8m2!3d42.0963133!4d-111.8766173" target="_blank"><img src="images/maps-and-flags.png" alt="map icon" width="15"></a>
-              123 E 456 N Preston </p>
-<p><img  src="images/phone-call.png" alt="phone" width="15" />
- 999-999-9999</p>
-<p><img  src="images/envelope.png" alt="email" width="15" />
+              123 E 456 N Preston 
+<img  src="images/phone-call.png" alt="phone" width="15" />
+ 999-999-9999
+<img  src="images/envelope.png" alt="email" width="15" />
    suninutah@gmail.com</p>
                   </div>
 
                   <div class="copyright">
                     <p>
                         &copy;2021 | Yulia Tanner | Orem, Utah |
-                      </p>
-                      <p>
+                    
                         Current Date:
                         <span id="currentDate"></span>
                       </p>
@@ -158,6 +157,9 @@
             
           </footer>
           <script src="js/currentdate.js"></script>
+          <script src="js/javascript.js"></script>
+          <script src="js/forecast.js"></script>
+   
     </body>
      
       </html>
