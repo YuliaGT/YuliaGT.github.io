@@ -20,27 +20,7 @@
   nav button {
     display: none;
   }
-  .Forcast {
-    display: block;
-  }
-
-#forcast td {
-  background-color:  rgb(113, 184, 185);
-}
-#forcast th {
-  padding-top: 5px;
-  padding-bottom: 5px;
-  background-color: #144552ff;
-  color: white;
-}
-#forcast {
-
-  width: 60%;
-  margin: 0 auto;
-  text-align: center;
-  border: 1px solid #000;
-
-}
+  
 #first,
 #third {
   display: grid;

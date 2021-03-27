@@ -44,7 +44,7 @@ header {
 }
 
 .facebook,
-.youtube,
+.twitter,
 .instagram {
   border-radius: 30px;
 }
@@ -54,9 +54,18 @@ h2 {
   font-family: "PT Sans", sans-serif;
   font-size: 1.5em;
 }
+h3 {
+  color: #4d194dff;
+  font-family: "Antic Slab", serif;
+  font-size: 1.3em;
+  text-align: center;
+}
 p {
   font-family: "Antic Slab", serif;
   font-size: 1em;
+}
+#third p, #third h2{
+  color: white;
 }
 main {
   margin: 5em;
@@ -85,7 +94,9 @@ img {
   }
   */
 #business1 {
+
   background-color: #d7b8e0ff;
+  
   background-image: linear-gradient(
     to right bottom,
     #d7b8e0ff 0%,
@@ -117,7 +128,7 @@ img {
 
 #third div{
   transform: 0;
- 
+ cursor: pointer;
 
 }
 .calltoact {
@@ -137,6 +148,10 @@ img {
   font-size: 1.3em;
   margin: 0cm;
 }
+hr {
+  width: 90%;
+  border: #4d194dff solid 1px;
+}
 input.submitBtn {
   border: none;
   background-color: #144552ff;
@@ -146,6 +161,51 @@ input.submitBtn {
   width: 96%;
   max-width: 10rem;
 }
+.Forcast {
+  display: block;
+}
+
+#forcast td {
+background-color:  rgb(113, 184, 185);
+}
+#forcast th {
+padding-top: 5px;
+padding-bottom: 5px;
+background-color: #144552ff;
+color: white;
+}
+#forcast {
+
+width: 60%;
+margin: 0 auto;
+text-align: center;
+border: 1px solid #000;
+
+}
+#fiveforecast td{
+background-color: #00787aff;
+color: white;
+}
+#fiveforecast th {
+  background-color: #00787aff;
+  color: white;
+
+  }
+  #fiveforecast {
+border: none;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+
+    
+    }
+    #communityevents {
+      background-color: rgb(194, 229, 229);
+      
+    }
+    #communityevents {
+      text-transform: uppercase;
+    }
 /*----------- NAVIGATION --------------*/
 
 nav ul li.active a {
@@ -168,9 +228,8 @@ nav ul.hide {
   display: none;
 }
 nav a:hover {
-  text-decoration: none;
-  font-size: 1.2em;
-  color: white;
+  color:  #000000;
+  background-color: #d7b8e0ff;
 }
 
 .navigation {
