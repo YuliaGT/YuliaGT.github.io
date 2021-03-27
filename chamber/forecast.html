@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta
+    name="description"
+    content="Chamber of Commerce website project Yulia Tanner WDD230 BYUI"
+  />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  
+  <title>Forecast page</title>
+  <meta charset="utf-8" />
+
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/small.css" />
+  <link rel="stylesheet" href="css/medium.css" />
+  <link rel="stylesheet" href="css/large.css" />
+  <link rel="shortcut icon" href="images/favicon.ico" />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=PT+Sans&display=swap');
+    </style>
+      </head>
+      <body>
+        <header>
+            <section class="headings">
+                <div id="logoname">
+                    <div id="logo">
+                  <img class="logo" src="images/icon.png" alt="Logo image" width="90" />
+                </div>
+                <div id="sitename">
+                  <h1>Orem Chamber of Commerce</h1>
+                </div>
+            </div>
+                <div id="social" >
+                    <a href="https://www.facebook.com" target="_blank"
+                      ><img class="facebook"
+                        src="https://cdn.glitch.com/6fd3c162-789a-4479-b944-6a3e79bac7e1%2Ffacebook.png?v=1589429107536"
+                        alt="Facebook" width="50"
+                    /></a>
+                    <a href="https://www.instagram.com" target="_blank"
+                      ><img class="instagram"
+                        src="https://cdn.glitch.com/6fd3c162-789a-4479-b944-6a3e79bac7e1%2Finstagram.png?v=1589429111352"
+                        alt="Instagram" width="50"
+                    /></a>
+                    <a href="https://www.youtube.com" target="_blank"
+                      ><img class="youtube"
+                        src="https://cdn.glitch.com/6fd3c162-789a-4479-b944-6a3e79bac7e1%2Fyoutube.png?v=1589429114388"
+                        alt="YouTube" width="50"
+                    /></a>
+                  </div>
+              </section>
+              <nav class="navigation">
+                <button onclick="Menu()">&#9776;</button>
+          
+                <ul id="primaryNav" class="hide">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="orem.html">Orem</a></li>
+                  <li><a href="join.html">Join</a></li>
+                  <li><a href="directory.html">Directory</a></li>
+                  <li><a href="contacts.html">Contacts</a></li>
+                </ul>
+              </nav>
+    
+        </header>
+        
+          <main>
+            <div id="dayforecast"> 
+                <h3>American Fork 5 day Forecast</h3>
+                <table id="forcast">
+                  <tr>
+                    <th class="weekdaya" ><span id="forcastdaya1"></span></th>
+                    <th class="weekdaya"><span id="forcastdaya2"></span></th>
+                    <th class="weekdaya"><span id="forcastdaya3"></span></th>
+                    <th class="weekdaya" ><span id="forcastdaya4"></span></th>
+                    <th class="weekdaya"><span id="forcastdaya5"></span></th>
+              
+  
+                  </tr>
+                  <tr>
+                    <td><img id="icona1" src="images/sun.png" alt="weather icon"></td>
+                    <td><img id="icona2" src="images/sun.png"  alt="weather icon"></td>
+                    <td><img id="icona3" src="images/sun.png"  alt="weather icon"></td>
+                    <td><img id="icona4" src="images/sun.png" alt="weather icon"></td>
+                    <td><img id="icona5" src="images/sun.png"  alt="weather icon"></td>
+         
+      
+                  </tr>
+              
+                  <tr>
+                      <td><span id="tempa1"></span>&deg; F</td>
+                      <td><span id="tempa2"></span>&deg; F</td>
+                      <td><span id="tempa3"></span>&deg; F</td>
+                      <td><span id="tempa4"></span>&deg; F</td>
+                      <td><span id="tempa5"></span>&deg; F</td>
+                    
+                    </tr>
+                
+                </table>
+                <h3>Orem 5 day Forecast</h3>
+                          <table id="forcast">
+                            <tr>
+                              <th class="weekday" ><span id="forcastday1"></span></th>
+                              <th class="weekday"><span id="forcastday2"></span></th>
+                              <th class="weekday"><span id="forcastday3"></span></th>
+                              <th class="weekday" ><span id="forcastday4"></span></th>
+                              <th class="weekday"><span id="forcastday5"></span></th>
+                        
+            
+                            </tr>
+                            <tr>
+                              <td><img id="icon1" src="images/sun.png" alt="weather icon"></td>
+                              <td><img id="icon2" src="images/sun.png"  alt="weather icon"></td>
+                              <td><img id="icon3" src="images/sun.png"  alt="weather icon"></td>
+                              <td><img id="icon4" src="images/sun.png" alt="weather icon"></td>
+                              <td><img id="icon5" src="images/sun.png"  alt="weather icon"></td>
+                   
+                
+                            </tr>
+                            <tr>
+                                <td><span id="temp1"></span>&deg; F</td>
+                                <td><span id="temp2"></span>&deg; F</td>
+                                <td><span id="temp3"></span>&deg; F</td>
+                                <td><span id="temp4"></span>&deg; F</td>
+                                <td><span id="temp5"></span>&deg; F</td>
+                              
+                              </tr>
+                  
+                          
+                          </table>
+                          <h3>Provo 5 day Forecast</h3>
+                          <table id="forcast">
+                            <tr>
+                              <th class="weekdayp" ><span id="forcastdayp1"></span></th>
+                              <th class="weekdayp"><span id="forcastdayp2"></span></th>
+                              <th class="weekdayp"><span id="forcastdayp3"></span></th>
+                              <th class="weekdayp" ><span id="forcastdayp4"></span></th>
+                              <th class="weekdayp"><span id="forcastdayp5"></span></th>
+                        
+            
+                            </tr>
+                            <tr>
+                              <td><img id="iconp1" src="images/sun.png" alt="weather icon"></td>
+                              <td><img id="iconp2" src="images/sun.png"  alt="weather icon"></td>
+                              <td><img id="iconp3" src="images/sun.png"  alt="weather icon"></td>
+                              <td><img id="iconp4" src="images/sun.png" alt="weather icon"></td>
+                              <td><img id="iconp5" src="images/sun.png"  alt="weather icon"></td>
+                   
+                
+                            </tr>
+                        
+                            <tr>
+                                <td><span id="tempp1"></span>&deg; F</td>
+                                <td><span id="tempp2"></span>&deg; F</td>
+                                <td><span id="tempp3"></span>&deg; F</td>
+                                <td><span id="tempp4"></span>&deg; F</td>
+                                <td><span id="tempp5"></span>&deg; F</td>
+                              
+                              </tr>
+                          
+                          </table>
+                         
+                          <h3>Spanish Fork 5 day Forecast</h3>
+                          <table id="forcast">
+                            <tr>
+                              <th class="weekdays" ><span id="forcastdays1"></span></th>
+                              <th class="weekdays"><span id="forcastdays2"></span></th>
+                              <th class="weekdays"><span id="forcastdays3"></span></th>
+                              <th class="weekdays" ><span id="forcastdays4"></span></th>
+                              <th class="weekdays"><span id="forcastdays5"></span></th>
+                        
+            
+                            </tr>
+                            <tr>
+                              <td><img id="icons1" src="images/sun.png" alt="weather icon"></td>
+                              <td><img id="icons2" src="images/sun.png"  alt="weather icon"></td>
+                              <td><img id="icons3" src="images/sun.png"  alt="weather icon"></td>
+                              <td><img id="icons4" src="images/sun.png" alt="weather icon"></td>
+                              <td><img id="icons5" src="images/sun.png"  alt="weather icon"></td>
+                   
+                
+                            </tr>
+                        
+                            <tr>
+                                <td><span id="temps1"></span>&deg; F</td>
+                                <td><span id="temps2"></span>&deg; F</td>
+                                <td><span id="temps3"></span>&deg; F</td>
+                                <td><span id="temps4"></span>&deg; F</td>
+                                <td><span id="temps5"></span>&deg; F</td>
+                              
+                              </tr>
+                          
+                          </table>
+                        </div>
+
+          </main>
+
+          <footer>
+                <section class="information">
+                  <div id="contact">
+          
+              <p> 
+                <a href="https://www.google.com/maps/place/%D0%9F%D1%80%D0%B5%D1%81%D1%82%D0%BE%D0%BD,+%D0%90%D0%B9%D0%B4%D0%B0%D1%85%D0%BE+83263/@42.0997416,-111.9153444,13z/data=!3m1!4b1!4m5!3m4!1s0x8754f78c7cda6c31:0xf1b3b4fc465a4a3f!8m2!3d42.0963133!4d-111.8766173" target="_blank"><img src="images/maps-and-flags.png" alt="map icon" width="15"></a>
+                56 N. State Street, Orem, UT 84057
+  <img  src="images/phone-call.png" alt="phone" width="15" />
+  385.482.2555
+  <img  src="images/envelope.png" alt="email" width="15" />
+  info@thechamber.org</p>
+                  </div>
+
+                  <div class="copyright">
+                    <p>
+                        &copy;2021 | Yulia Tanner | Orem, Utah |
+                    
+                        Current Date:
+                        <span id="currentDate"></span>
+                      </p>
+                  </div>
+                    
+ 
+            
+          </footer>
+          <script src="js/currentdate.js"></script>
+          <script src="js/javascript.js"></script>
+          <script src="js/forecast.js"></script>
+          <script src="js/forecastProvo.js"></script>
+          <script src="js/forecastAmeric.js"></script>
+          <script src="js/forecastSpanish.js"></script>
+        
+   
+    </body>
+     
+      </html>

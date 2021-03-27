@@ -1,21 +1,56 @@
 @media only screen and (min-width: 60em) {
+  /* CSS HEX 
+--russian-violet: #4d194dff;
+--skobeloff: #00787aff;
+--midnight-green-eagle-green: #144552ff;
+--pink-lavender: #d7b8e0ff;
+*/
   nav ul {
     display: grid;
   }
   nav ul.hide {
     display: grid;
+    margin: .4em;
   }
   header {
-    position: fixed;
+    /*position: fixed; */
     display: block;
   }
-  .headings {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
+
   nav button {
     display: none;
   }
+  .Forcast {
+    display: block;
+  }
+
+#forcast td {
+  background-color:  rgb(113, 184, 185);
+}
+#forcast th {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #144552ff;
+  color: white;
+}
+#forcast {
+
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid #000;
+
+}
+#first,
+#third {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+#third div{
+  transform: skew(-10deg);
+ 
+
+}
   /*
   .navigation {
     position: fixed;
