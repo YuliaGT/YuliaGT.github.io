@@ -31,8 +31,13 @@
  
 
 }
-.cards {
+.cards, .cards2 {
   grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.gallery {
+  
+  grid-template-columns: 1fr 1fr 1fr;
+
 }
   /*
   .navigation {

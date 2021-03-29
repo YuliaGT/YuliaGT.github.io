@@ -1,95 +1,66 @@
 {
     "businesses": [
       {
-        "business": "1",
-        "city": "Smith",
-        "address": "23 December 1805",
-        "phone": "27 June 1844",
-        "website": 14,
-        "logo": "images/.jpg",
-        "events": [
-            "February 29: Geyser Song Day",
-            "May 1-6: Days of May Celebration",
-            "October 15-16: Octoberfest"
-          ]
+        "business": "Painter Bros",
+      
+        "address": "800 S 110W, Orem, UT 84057",
+        "phone": "(801) 477-0767",
+        "website": "painterbros.com",
+        "logo": "images/painter.jpg"
+  
       },
       {
-        "business": "2",
-        "city": "Smith",
-        "address": "23 December 1805",
-        "phone": "27 June 1844",
-        "website": 14,
-        "logo": "images/.jpg",
-        "events": [
-            "February 29: Geyser Song Day",
-            "May 1-6: Days of May Celebration",
-            "October 15-16: Octoberfest"
-          ]
+        "business": "Mora Iced Creamery",
+        "address": "541 E University Pkwy, Orem, UT 84097",
+        "phone": "(385) 236-3319",
+        "website": "www.moraicecream.com",
+        "logo": "images/mora.jpg"
+    
       },
       {
-        "business": "3",
-        "city": "Smith",
-        "address": "23 December 1805",
-        "phone": "27 June 1844",
-        "website": 14,
-        "logo": "images/.jpg",
-        "events": [
-            "February 29: Geyser Song Day",
-            "May 1-6: Days of May Celebration",
-            "October 15-16: Octoberfest"
-          ]
+        "business": "Persnickety Prints",
+ 
+        "address": "190 N Orem Blvd, Orem, UT 84057",
+        "phone": "(855) 977-4687",
+        "website": "www.persniketyprints.comSAF" ,
+        "logo": "images/prints.jpg"
+ 
       },
       {
-        "business": "4",
-        "city": "Smith",
-        "address": "23 December 1805",
-        "phone": "27 June 1844",
-        "website": 14,
-        "logo": "images/.jpg",
-        "events": [
-            "February 29: Geyser Song Day",
-            "May 1-6: Days of May Celebration",
-            "October 15-16: Octoberfest"
-          ]
+        "business": "Utah Valley Univercity",
+
+        "address": "815 West 1250 South, Orem, UT 84058",
+        "phone": "(801) 863-8230",
+        "website": "www.uvu.edu",
+        "logo": "images/uvu.jpg"
+       
       },
       {
-        "business": "5",
-        "city": "Smith",
-        "address": "23 December 1805",
-        "phone": "27 June 1844",
-        "website": 14,
-        "logo": "images/.jpg",
-        "events": [
-            "February 29: Geyser Song Day",
-            "May 1-6: Days of May Celebration",
-            "October 15-16: Octoberfest"
-          ]
+        "business": "Allen's Camera",
+       
+        "address": "626 N State St, Orem, UT 84057",
+        "phone": "(801) 224-0006",
+        "website": "allenscamera.net",
+        "logo": "images/allens.jpg"
+     
       },
       {
-        "business": "6",
-        "city": "Smith",
-        "address": "23 December 1805",
-        "phone": "27 June 1844",
-        "website": 14,
-        "logo": "images/.jpg",
-        "events": [
-            "February 29: Geyser Song Day",
-            "May 1-6: Days of May Celebration",
-            "October 15-16: Octoberfest"
-          ]
+        "business": "Carol's Copy Center",
+    
+        "address": "108 N State St, Orem, UT 84057",
+        "phone": "(801) 225-8111",
+        "website": "carolscopycenter.iwixsite.com",
+        "logo": "images/carols.jpg"
+     
       },
       {
-        "business": "7",
-        "city": "Smith",
-        "address": "23 December 1805",
-        "phone": "27 June 1844",
-        "website": 14,
-        "logo": "images/.jpg",
-        "events": [
-            "February 29: Geyser Song Day",
-            "May 1-6: Days of May Celebration",
-            "October 15-16: Octoberfest"
-          ]
+        "business": "Veldon's Cleaners",
+ 
+        "address": "1549 N State St, Ste 110, Orem, UT 84057",
+        "phone": "(801) 225-9173",
+        "website": "veldons-cleaners.edan.io",
+        "logo": "images/veldons.jpg"
+  
       }
     
  

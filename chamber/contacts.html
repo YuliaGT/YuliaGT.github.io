@@ -63,8 +63,7 @@
         </header>
         
           <main>
-              <h2>Hello</h2>
-              <h3>Address</h3>
+              <h3 class="left">Address</h3>
                 <p>City of Orem</p>
                 <p>56 N. State Street</p>
                 <p>Orem, UT 84057</p>
@@ -77,6 +76,33 @@
                 <br>
                 <h3>Bords of Directors</h3>
                 <div class="cards"></div>
+                <h3>Have questions? </h3>
+                <a id="button" href="#popup">Contact US</a>
+
+<div id="popup" style="text-align:center;">
+  <a id="close" href="#">X</a>
+  
+  <h4>Fill out the form and we get back to you</h4>
+  <legend>Your Personal Information</legend>
+  <form method="get" action="request.html">
+                    <label class="top"
+                      >First Name*  (Min 5 characters)<input type="text" name="fname" required pattern="[a-zA-Z\s]{5,}"
+                     
+                    /></label>
+                    <label class="top"
+                      >Last Name*  (Min 5 characters)<input type="text" name="lname" required pattern="[a-zA-Z\s]{5,}"
+                     
+                    /></label>
+                    <label class="top"
+                    >Email*
+                    <input type="email" name="email" placeholder="someone@gmail.com" required
+                  /></label>
+                  <label class="top"
+                  >Comment
+                  <textarea name="comment"></textarea>
+                </label>
+                <input type="submit" value="Send request" class="submitBtn" />
+              </form>
           </main>
 
           <footer>
