@@ -221,7 +221,26 @@ border: none;
       width: 60%;
     }
       
+  .contactinfo {
+    text-align: center;
+  }
+  .contactinfo h3 {
+    text-align: center;
+  }
+  div#business1:hover, div#business1:active {font-size: 110%;}
+div#business2:hover, div#business2:active {font-size: 110%;}
+div#business3:hover, div#business3:active {font-size: 110%;}
+.gallery {
+  display: grid;
+  text-align: center;
+  background-color: #d7b8e0ff;
+  grid-template-columns: 1fr;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px; 
+ 
   
+}
+.gallery img {width: 100%;}
 /*----------- NAVIGATION --------------*/
 
 nav ul li.active a {
@@ -257,34 +276,26 @@ nav a:hover {
   color: white;
   font-size: 1em;
 }
-div#business1:hover, div#business1:active {font-size: 110%;}
-div#business2:hover, div#business2:active {font-size: 110%;}
-div#business3:hover, div#business3:active {font-size: 110%;}
-.gallery {
-  display: grid;
-  text-align: center;
-  background-color: #d7b8e0ff;
-  grid-template-columns: 1fr;
-  grid-column-gap: 5px;
-  grid-row-gap: 5px; 
- 
-  
-}
-.gallery img {width: 100%;}
+
 
 /*----------- FORM --------------*/
 form fieldset {
-  margin: 2rem 0;
   border: 1px solid #774936;
   border-radius: 10px;
   padding: 0.5rem 2%;
+  background-color: rgb(204, 225, 231);
+  max-width: 600px;
+    margin: 0 auto;
  
+}
+#joinform p {
+text-align: left;
 }
 form label.top,
 form div {
   display: block;
   padding-top: 1rem;
-  color: #4d194dff;
+  color: black;
   font-size: 1rem;
 }
 form label.top input,
@@ -296,10 +307,11 @@ form label.top textarea {
   border: solid 1px #4d194dff;
   border-radius: 4px;
   padding: 0.75rem;
-  color: #4d194dff;
+  color: black;
   width: 100%;
   max-width: 20rem;
   background-color: rgba(0, 0, 0, 0.1);
+
 }
 form label.sbs {
   display: block;
@@ -307,11 +319,14 @@ form label.sbs {
   color: #4d194dff;
 }
 
+
 form label.top input:required {
-  border-left: red solid 4px;
-}
+  border-color: rgb(170, 55, 170);
+  border-width: 2px;}
+
 form label.top input:required:valid {
-  border-left: #4d194dff solid 4px;
+  border-color: #144552ff;
+  border-width: 2px;
   
 }
 
@@ -339,12 +354,14 @@ form input.submitBtn {
      border: 1.5px solid rgba(0, 0, 0, 0.3);
      margin: 8px;
      padding: 8px;
+     border-radius: 10px;
    }
   
    .cards section,.cards2 section {
      border: 1.5px solid rgba(0, 0, 0, 0.3);
      background-color: #4d194dff;
      color: #d7b8e0ff;
+     border-radius: 10px;
     
      
    }
@@ -493,7 +510,8 @@ footer {
   background-color: #144552ff;
   color: white;
   border-radius: 0.6rem;
-  padding: 0.5rem;
+  padding: 1rem;
+  margin: 1rem;
   width: 96%;
   max-width: 15rem;
 }

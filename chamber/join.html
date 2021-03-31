@@ -67,7 +67,7 @@
               <div id="joinform">
                 <form method="get" action="thanks.html">
                   <fieldset>
-                    <legend>Your Personal Information</legend>
+                    <legend>Member Info</legend>
                     <label class="top"
                       >First Name*  (Min 5 characters)<input type="text" name="fname" required pattern="[a-zA-Z\s]{5,}"
                      
@@ -77,9 +77,15 @@
                      
                     /></label>
                     <label class="top"
-                    >Title  (Min 5 characters)<input type="text" name="title"  pattern="[a-zA-Z\s]{5,}"
-                   
-                  /></label>
+                    >Title
+                    <select name="subject">
+                      <option value="">Select Title&#9662;</option>
+                      <option value="mr">Mr</option>
+                      <option value="mrs">Mrs</option>
+                      <option value="miss">Miss</option>
+                      <option value="ms">Ms</option>
+                    </select>
+                  </label>
                     <label class="top"
                       >Email*
                       <input type="email" name="email" placeholder="someone@gmail.com" required
@@ -92,14 +98,81 @@
                 </fieldset>
                 <fieldset>
                   <fieldset>
-                    <legend>Your Business</legend>
+                    <legend>Business</legend>
                     <label class="top"
                     >Business name*  (Min 5 characters)<input type="text" name="bname" required pattern="[a-zA-Z\s]{5,}"
                    
                   /></label>
+                  <label class="top"
+                  >Address line 1<input type="number" name="address1" 
+                /></label>
+                <label class="top"
+                >Address line 2 <input type="number" name="address1" 
+              /></label>  <label class="top"
+              >State 
+              <select name="state">
+                <option value="">Choose&#9662;</option>
+                <option value="fish">Alabama</option>
+                <option value="fish">Arizona</option>
+                <option value="preston">Arkansas</option>
+                <option value="soda">California</option>
+                <option value="soda">Colorado</option>
+                <option value="fish">Connecticut</option>
+                <option value="preston">Delaware</option>
+                <option value="soda">Florida</option>
+                <option value="soda">Georgia</option>
+                <option value="fish">Hawaii</option>
+                <option value="fish">Idaho</option>
+                <option value="preston">Illinois</option>
+                <option value="soda">Indiana</option>
+                <option value="soda">Iowa</option>
+                <option value="fish">Kansas</option>
+                <option value="preston">Kentucky</option>
+                <option value="soda">Louisiana</option>
+                <option value="soda">Maine</option>
+<option value="fish">Maryland</option>
+                <option value="fish">Massachusetts</option>
+                <option value="preston">Michigan</option>
+                <option value="soda">Minnesota</option>
+                <option value="soda">Mississippi</option>
+                <option value="fish">Missouri</option>
+                <option value="preston">Montana</option>
+                <option value="soda">Nebraska</option>
+                <option value="soda">Nevada</option>
+    
+                <option value="fish">New Hampshire</option>
+                <option value="fish">New Jersey</option>
+                <option value="preston">New Mexico</option>
+                <option value="soda"> New York</option>
+                <option value="soda">North Carolina</option>
+                <option value="fish">Connecticut</option>
+                <option value="preston">North Dakota</option>
+                <option value="soda">Ohio</option>
+                <option value="soda">Oklahoma</option>
+                <option value="fish">Oregon</option>
+                <option value="fish">Pennsylvania</option>
+                <option value="preston">Rhode Island</option>
+                <option value="soda">South Carolina</option>
+                <option value="soda">South Dakota</option>
+                <option value="fish">Tennessee</option>
+                <option value="preston">Texas</option>
+                <option value="soda">Utah</option>
+                <option value="soda">Vermont</option>
+                <option value="soda">Virginia</option>
+                <option value="fish">Washington</option>
+                <option value="preston">West Virginia</option>
+                <option value="soda">Wisconsin</option>
+                <option value="soda">Wyoming</option>
 
+
+
+              </select>
+            </label>
+            <label class="top"
+              >City <input type="text" name="city" 
+            /></label>
                     <label class="top"
-                      >Zip Code* <input type="number" name="zip" required
+                      >Zip Code <input type="number" name="zip" 
                     /></label>
                     <label class="top"
                       >Website
