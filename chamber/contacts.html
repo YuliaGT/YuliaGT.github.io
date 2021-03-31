@@ -24,29 +24,29 @@
             <section class="headings">
                 <div id="logoname">
                     <div id="logo">
-                  <img class="logo" src="images/icon.png" alt="Logo image" width="90" />
+                  <img class="logo" src="images/icon.png" alt="Logo image">
                 </div>
                 <div id="sitename">
                   <h1>Orem Chamber of Commerce</h1>
                 </div>
             </div>
-                <div id="social" >
-                    <a href="https://www.facebook.com" target="_blank"
-                      ><img class="facebook"
-                        src="https://cdn.glitch.com/6fd3c162-789a-4479-b944-6a3e79bac7e1%2Ffacebook.png?v=1589429107536"
-                        alt="Facebook" width="50"
-                    /></a>
-                    <a href="https://www.instagram.com" target="_blank"
-                      ><img class="instagram"
-                        src="https://cdn.glitch.com/6fd3c162-789a-4479-b944-6a3e79bac7e1%2Finstagram.png?v=1589429111352"
-                        alt="Instagram" width="50"
-                    /></a>
-                    <a href="https://www.youtube.com" target="_blank"
-                      ><img class="youtube"
-                        src="https://cdn.glitch.com/6fd3c162-789a-4479-b944-6a3e79bac7e1%2Fyoutube.png?v=1589429114388"
-                        alt="YouTube" width="50"
-                    /></a>
-                  </div>
+            <div id="social" >
+              <a href="https://www.facebook.com" target="_blank"
+                ><img class="facebook"
+                  src="images/facebook.png"
+                  alt="Facebook" width="50"
+              /></a>
+              <a href="https://www.instagram.com" target="_blank"
+                ><img class="instagram"
+                  src="images/instagram.png"
+                  alt="Instagram" width="50"
+              /></a>
+              <a href="https://www.twitter.com" target="_blank"
+                ><img class="twitter"
+                  src="images/twitter.png"
+                  alt="Twitter" width="50"
+              /></a>
+            </div>
               </section>
               <nav class="navigation">
                 <button onclick="Menu()">&#9776;</button>
@@ -76,6 +76,10 @@
               </div>
                 <br>
                 <h3>FIND US ON A MAP</h3>
+                <a href="https://goo.gl/maps/5ScheDNcRtpyo5HL9" target="_blank">
+                <img src="images/map.jpeg" alt="Map of Orem">
+                
+                </a>
                 <br>
                 <h3>Bords of Directors</h3>
                 <div class="cards"></div>
@@ -90,10 +94,10 @@
   <a id="close" href="#">X</a>
   
   <h4>Fill out the form and we get back to you</h4>
-  <legend>Your Personal Information</legend>
-  <form method="get" action="request.html">
+  <legend id="extraform">
+  <form method="get" action="request.html" >
                     <label class="top"
-                      ><p>First Name*  (Min 5 characters)</p><input type="text" name="fname" required pattern="[a-zA-Z\s]{5,}"
+                      >First Name*  (Min 5 characters)<input type="text" name="fname" required pattern="[a-zA-Z\s]{5,}"
                      
                     /></label>
                     <label class="top"
@@ -108,6 +112,7 @@
                   >Comment
                   <textarea name="comment"></textarea>
                 </label>
+              </legend>
                 <input type="submit" value="Send request" class="submitBtn" />
               </form>
             </div>
