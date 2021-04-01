@@ -21,11 +21,15 @@ header {
   color: #d7b8e0ff;
   border: 1px solid #322420;
   margin: 0.3em;
-  justify-content: center;
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
 
- 
+  overflow-x: hidden;
  
 }
+
 #logoname {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -77,12 +81,14 @@ p {
 }
 main {
   margin: 5em;
+  margin-top: 10rem;;
 }
 img {
   max-width: 100%;
 }
 #first,
-#third {
+#third,
+#forth {
   display: block;
 }
 #first div {
@@ -126,21 +132,17 @@ img {
   );
 }
 
-#third div{
-  transform: 0;
- cursor: pointer;
 
-}
 .calltoact {
-  position: absolute;
-  top: 750px;
-  width: 30%;
+ 
   border: 1px solid #000;
   padding: 0.5em;
   box-shadow: none;
   color: #322420;
   background: rgb(113, 184, 185);
 }
+
+
 .calltoact p {
   font-size: 0.9em;
 }
@@ -264,7 +266,7 @@ nav ul.hide {
 }
 nav a:hover {
 
-  background-color: #d7b8e0ff;
+  font-size: 1.5em;
 }
 #third nav a:hover {
 
@@ -351,7 +353,22 @@ input.submitBtn2 {
   width: 96%;
   max-width: 25rem;
 }
+input.submit {
+  border: none;
+  background-color: #144552ff;
+  color: white;
+  border-radius: 0.6rem;
+  padding: 1rem;
 
+  width: 96%;
+  max-width: 20rem;
+  margin-bottom: 1rem;
+}
+.calltoact input.submit {
+
+  margin-bottom: 0;
+  
+}
 /*----------- Directors BOARD --------------*/
 .cards, .cards2 {
   display: grid;
@@ -607,4 +624,44 @@ footer {
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+/*-----------The sidebar menu --------------*/
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 50px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  right: 0;
+  background-color: #4d194dff; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+  margin-top: .3rem;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Style page content */
+.main {
+  margin-left: 160px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }
