@@ -98,7 +98,9 @@ img {
   background-color: #eee;
   box-shadow: 3px 3px 3px #144552ff;
 }
-
+iframe{
+  display: none;
+}
 #business1 {
 
   background-color: #d7b8e0ff;
@@ -138,20 +140,21 @@ img {
   border: 1px solid #000;
   padding: 0.5em;
   box-shadow: none;
-  color: #322420;
-  background: rgb(113, 184, 185);
+  color: white;
+  background: #00787aff;
 }
 
 
 .calltoact p {
-  font-size: 0.9em;
+  font-size: 1em;
+  
 }
 .calltoact h2 {
   font-size: 1.3em;
   margin: 0cm;
 }
 hr {
-  width: 90%;
+  width: 98%;
   border: #4d194dff solid 1px;
 }
 
@@ -212,7 +215,7 @@ div#business3:hover, div#business3:active {font-size: 110%;}
 .gallery {
   display: grid;
   text-align: center;
-  background-color: #d7b8e0ff;
+  background-color: rgb(116, 179, 180);
   grid-template-columns: 1fr;
   grid-column-gap: 5px;
   grid-row-gap: 5px; 
@@ -225,8 +228,8 @@ div#business3:hover, div#business3:active {font-size: 110%;}
   border: 1px solid black;
   border-radius: 10px;
   padding: 0.5rem 2%;
-  background-color: rgb(204, 225, 231);
-
+  background-color: #00787aff;
+color: white;
     margin: 1rem;
   
 }
@@ -234,14 +237,27 @@ div#business3:hover, div#business3:active {font-size: 110%;}
   border: 1px solid black;
   border-radius: 10px;
   padding: 0.5rem 2%;
-  background-color: rgb(204, 225, 231);
+  background-color: #00787aff;
 max-width: 500px;
     margin: 1rem;
+    color: white;
   
 }
+
 .dropdown li{
   color: #144552ff;
   font-size: 1.1em;
+}
+.googlemap {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 0.5rem 2%;
+    background-color: #00787aff;
+  max-width: 660px;
+    margin: 0 auto;
+}
+.contactinfo {
+  font-size: 1.2em;
 }
 /*----------- NAVIGATION --------------*/
 
@@ -266,7 +282,7 @@ nav ul.hide {
 }
 nav a:hover {
 
-  font-size: 1.5em;
+  border-top: 1.7px solid white;
 }
 #third nav a:hover {
 
@@ -278,16 +294,28 @@ nav a:hover {
   color: white;
   font-size: 1em;
 }
+#lines, #grid {
+  background-color: #144552ff;
+  color: white;
+  font-size: 30px;
 
+} 
+.changeview {
+display: block;
+  width: 100px;
+  margin: 0px auto;
+
+}
 
 /*----------- FORM --------------*/
 form fieldset {
   border: 1px solid black;
   border-radius: 10px;
   padding: 0.5rem 2%;
-  background-color: rgb(204, 225, 231);
+  background-color: #00787aff;
   max-width: 600px;
     margin: 0 auto;
+    color: white;
  
 }
 
@@ -295,22 +323,34 @@ form label.top,
 form div {
   display: block;
   padding-top: 1rem;
-  color: black;
+  color: white;
   font-size: 1rem;
 }
 form label.top input,
 form label.top select,
-form label.top textarea {
+form label.top textarea
+{
   -webkit-appearance: none;
   display: block;
   font-size: 1rem;
   border: solid 1px #4d194dff;
   border-radius: 4px;
   padding: 0.75rem;
-  color: black;
+  color: white;
   width: 100%;
   max-width: 20rem;
   background-color: rgba(0, 0, 0, 0.1);
+
+}
+form label.top ::placeholder
+{
+
+
+  font-size: .8rem;
+  color: rgb(219, 205, 205);
+  width: 100%;
+
+
 
 }
 form label.sbs {
@@ -373,7 +413,7 @@ input.submit {
 .cards, .cards2 {
   display: grid;
      text-align: center;
-     background-color: #d7b8e0ff;
+     background-color: #00787aff;
      grid-template-columns: 1fr;
      grid-column-gap: 8px;
      grid-row-gap: 8px; 
@@ -385,8 +425,8 @@ input.submit {
   
    .cards section,.cards2 section {
      border: 1.5px solid rgba(0, 0, 0, 0.3);
-     background-color: #4d194dff;
-     color: #d7b8e0ff;
+     background-color: #144552ff;
+     color: white;
      border-radius: 10px;
     
      

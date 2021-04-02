@@ -6,7 +6,7 @@
     content="Chamber of Commerce website project Yulia Tanner WDD230 BYUI"
   />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  
+  <script src="https://kit.fontawesome.com/3dcc1c759d.js" crossorigin="anonymous"></script>
   <title>Directory page</title>
   <meta charset="utf-8" />
 
@@ -47,6 +47,17 @@
         </header>
         
           <main>
+            <div class="changeview">
+
+              <button onclick="List()" id="lines"><i class='fas fa-align-justify'></i></button>
+              <button onclick="Grid()" id="grid"><i class="fas fa-th"></i></i></button>
+              </div>
+
+              <script>
+                document.getElementById("lines").addEventListener("click", function() {
+                  this.style.backgroundColor = "red";
+                });
+                </script>
              <!-- Side navigation -->
 <div class="sidenav"> 
   <a href="https://www.facebook.com" target="_blank"
