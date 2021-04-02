@@ -31,7 +31,7 @@
  
 
 }
-.cards, .cards2 {
+.cards, #cards2.grid{
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 .gallery {

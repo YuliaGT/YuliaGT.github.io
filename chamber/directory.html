@@ -47,17 +47,16 @@
         </header>
         
           <main>
-            <div class="changeview">
+            <div id="changeview">
 
-              <button onclick="List()" id="lines"><i class='fas fa-align-justify'></i></button>
-              <button onclick="Grid()" id="grid"><i class="fas fa-th"></i></i></button>
-              </div>
+              <button class="btn" onclick="listView()"><i class='fas fa-align-justify'></i> List</button>
+              <button class="btn active" onclick="gridView()"><i class="fas fa-th"></i> Grid</button>
+             
+            </div>
 
-              <script>
-                document.getElementById("lines").addEventListener("click", function() {
-                  this.style.backgroundColor = "red";
-                });
-                </script>
+ 
+          
+             
              <!-- Side navigation -->
 <div class="sidenav"> 
   <a href="https://www.facebook.com" target="_blank"
@@ -79,7 +78,7 @@
  
 </div>
               <h2>Support our local businesses</h2>
-              <div class="cards2"></div>
+              <div id="cards2" class="grid"></div>
           </main>
 
           <footer>
@@ -110,6 +109,7 @@
           
           <script src="js/javascript.js"></script>
           <script src="js/businesses.js"></script>
+          <script src="js/switch.js"></script>
          
       
    

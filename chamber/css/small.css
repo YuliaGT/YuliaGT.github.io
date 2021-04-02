@@ -48,11 +48,7 @@ header {
   margin-right: 1em;
 }
 
-.facebook,
-.twitter,
-.instagram {
-  border-radius: 30px;
-}
+
 /*----------- MAIN --------------*/
 h2 {
   color: #4d194dff;
@@ -83,6 +79,7 @@ main {
   margin: 5em;
   margin-top: 10rem;;
 }
+
 img {
   max-width: 100%;
 }
@@ -281,8 +278,8 @@ nav ul.hide {
   display: none;
 }
 nav a:hover {
-
-  border-top: 1.7px solid white;
+color:white;
+  border-bottom: 2.3px solid white;
 }
 #third nav a:hover {
 
@@ -294,19 +291,43 @@ nav a:hover {
   color: white;
   font-size: 1em;
 }
-#lines, #grid {
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #144552ff;
+  cursor: pointer;
+  color: white;
+}
+
+.btn:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.btn active {
+  background-color: #00787aff;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+}
+
+/*
+.lines, .grid {
   background-color: #144552ff;
   color: white;
   font-size: 30px;
 
 } 
-.changeview {
+#changeview {
 display: block;
   width: 100px;
   margin: 0px auto;
 
 }
-
+*/
 /*----------- FORM --------------*/
 form fieldset {
   border: 1px solid black;
@@ -410,7 +431,8 @@ input.submit {
   
 }
 /*----------- Directors BOARD --------------*/
-.cards, .cards2 {
+
+.cards, #cards2.grid {
   display: grid;
      text-align: center;
      background-color: #00787aff;
@@ -422,8 +444,30 @@ input.submit {
      padding: 8px;
      border-radius: 10px;
    }
-  
-   .cards section,.cards2 section {
+   
+   #cards2.list{
+    display: grid;
+       text-align: center;
+       background-color: #00787aff;
+       grid-template-columns: 1fr;
+       grid-column-gap: 8px;
+       grid-row-gap: 8px; 
+       border: 1.5px solid rgba(0, 0, 0, 0.3);
+       margin: 8px;
+       padding: 8px;
+       border-radius: 10px;
+       width: 70%;
+     }
+     #cards2.list section {
+      display: flex;
+     padding-left: 8px;
+ 
+     }
+     #cards2.list img{
+       display:none;
+     }
+
+   .cards section,#cards2 section {
      border: 1.5px solid rgba(0, 0, 0, 0.3);
      background-color: #144552ff;
      color: white;
@@ -431,14 +475,14 @@ input.submit {
     
      
    }
-   .cards section h2, .cards2 section h2{
+   .cards section h2, #cards2 section h2{
   
     color: white;
     font-size: 1.1em;
 
     
   }
-  .cards section p, .cards2 section p{
+  .cards section p, #cards2 section p{
   
     font-size: 1em;
     

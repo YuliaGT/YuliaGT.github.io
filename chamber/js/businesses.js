@@ -33,7 +33,7 @@ fetch(businessURL)
         card.appendChild(img);
 
 
-        document.querySelector('div.cards2').appendChild(card); 
+        document.querySelector('div#cards2').appendChild(card); 
         
     }
     
