@@ -71,13 +71,14 @@ p {
   font-family: "Antic Slab", serif;
   font-size: 1em;
 }
+
 #third p, #third h2{
   color: white;
   margin: 1em;
 }
 
 #first h2, .calltoact h2, #aboutcity h2, #demographics h3{
-  color: #d7b8e0ff;
+  color: rgb(223, 214, 226);
 }
 main {
   margin: 5em;
@@ -151,8 +152,8 @@ iframe{
 
 
 .calltoact p {
-  font-size: 1em;
-  
+  font-size: 1.1em;
+  color: white;
 }
 .calltoact h2 {
   font-size: 1.3em;
