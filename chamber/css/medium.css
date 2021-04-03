@@ -9,10 +9,15 @@
       nav button {
         display: none;
       }
+      #first {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+      }
     #third {
     display: block;
   }
-  #first, #forth {
+#forth {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }

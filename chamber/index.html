@@ -119,7 +119,7 @@
       <div id="dayforecast">
         <h2>3 day Forecast</h2>
         <form method="get" action="forecast.html">
-          <table id="forcast">
+          <table id="forecast">
             <tr>
               <th class="weekday"><span id="forcastday1"></span></th>
               <th class="weekday"><span id="forcastday2"></span></th>
@@ -147,8 +147,18 @@
           <input type="submit" value="Weather in our neighborhood" class="submit" />
         </form>
       </div>
-      <br>
-      <br>
+      <div id="current">
+        <h2>Current Weather</h2>
+        <section class="summaryfield">
+          <p >Currently: </p>
+          <p class="currently"><span id="currentlyvalue"></span></p>
+          <p >Temperature: </p>
+          <p class="temperature"><span id="tempvalue"></span>&deg; F</p>
+          <p >Humidity: </p>
+          <p class="humidity"><span id="humidityvalue"></span> %</p>
+      
+        </section>
+      </div>
     </section>
     <section id="second">
       <section class="calltoact">

@@ -21,7 +21,11 @@
     display: none;
   }
   
-#first,
+#first {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
 #third {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -41,13 +45,13 @@
 }
 .calltoact {
   position: absolute;
-  top: 870px;
+  top: 1120px;
   width: 50%;
   border: 1px solid #000;
   padding: 0.5em;
   box-shadow: none;
   color: #322420;
-  background: rgb(113, 184, 185);
+  background: #00787aff;
 }
 
 }

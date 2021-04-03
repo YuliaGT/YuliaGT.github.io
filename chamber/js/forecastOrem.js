@@ -13,7 +13,7 @@ fetch(forecastapiURL)
   
         let dayCount = 0;
 
-        for (x = 1; x < 4; x++) {
+        for (x = 1; x < 6; x++) {
         const imagesrc = 'https://openweathermap.org/img/wn/' + jsObject.daily[x].weather[0].icon + '.png';
 
 
@@ -35,22 +35,4 @@ fetch(forecastapiURL)
 
      
 
-  
-
-
-    const apiURL =
-    "https://api.openweathermap.org/data/2.5/onecall?lat=40.2969&lon=-111.6946&units=imperial&appid=c47e55d54eb3cb601a2de0b71c34823d";
-  fetch(apiURL)
-    .then((response) => response.json())
-    .then((jsObject) => {
-      console.log(jsObject);
-      document.getElementById("currentlyvalue").textContent =
-      jsObject.daily[x].weather[0].description;
-      document.getElementById("tempvalue").textContent = Math.round(jsObject.daily[x].temp.max);
-     
-      document.getElementById("humidityvalue").textContent =
-      jsObject.daily[x].humidity;
-  
-      
-    });
   
