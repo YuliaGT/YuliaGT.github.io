@@ -11,7 +11,7 @@
          /*cards2*/
                 }
  /* Optional: Add active class to the current button (highlight it) */
- var container = document.getElementById("btnContainer");
+ var container = document.getElementById("changeview");
  var btns = container.getElementsByClassName("btn");
  for (var i = 0; i < btns.length; i++) {
    btns[i].addEventListener("click", function() {
