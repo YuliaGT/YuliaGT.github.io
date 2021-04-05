@@ -38,9 +38,9 @@ fetch(forecastapiURL)
   
 
 
-    const apiURL =
+    const currentapiURL =
     "https://api.openweathermap.org/data/2.5/onecall?lat=40.2969&lon=-111.6946&units=imperial&appid=c47e55d54eb3cb601a2de0b71c34823d";
-  fetch(apiURL)
+  fetch(currentapiURL)
     .then((response) => response.json())
     .then((jsObject) => {
       console.log(jsObject);

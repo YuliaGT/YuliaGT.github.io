@@ -71,7 +71,10 @@ p {
   font-family: "Antic Slab", serif;
   font-size: 1em;
 }
-
+a {
+  color: white;
+  
+}
 #third p, #third h2{
   color: white;
   margin: 1em;
@@ -642,14 +645,14 @@ footer {
   position:relative;
  max-width: 400px;
 
-  background-color:#EFF1F3;
+  background-color:#00787aff;
   color:black;
 
   opacity : 0;
 
   border-style:solid;
   border-radius:15px;
-  border-color:#00787aff;
+  border-color:black;
 
 
 }
