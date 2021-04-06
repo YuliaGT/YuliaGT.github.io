@@ -17,10 +17,7 @@
     #third {
     display: block;
   }
-#forth {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
+
   .cards, #cards2.grid{
     grid-template-columns: 1fr 1fr;
   }
