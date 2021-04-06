@@ -606,7 +606,7 @@ input.submit {
   color:#D77A61;
 }
 
-#popup
+fieldset #popup
 {
   position:relative;
  max-width: 400px;
@@ -645,7 +645,7 @@ input.submit {
   padding:5px 7px;
   border-radius:50px;
   border-style:solid;
-  border-color:#bbd8b3;
+
   font-weight:bold;
   color:black;
   text-decoration:none;
