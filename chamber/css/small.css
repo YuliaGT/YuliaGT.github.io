@@ -606,7 +606,7 @@ input.submit {
   color:#D77A61;
 }
 
-fieldset #popup
+#popup
 {
   position:relative;
  max-width: 400px;
