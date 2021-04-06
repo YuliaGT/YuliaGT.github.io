@@ -492,21 +492,6 @@ input.submit {
     
   }
 
-/*----------- FOOTER --------------*/
-footer {
-  display: grid;
-  background-color: #144552ff;
-  color: white;
-  text-align: center;
-  padding: 2px;
-
-  border: 1px solid #322420;
-}
-
-* {
-  box-sizing: border-box;
-}
-
 /*----------- SLIDE SHOW --------------*/
 /* Slideshow container */
 .slideshow-container {
@@ -549,16 +534,6 @@ footer {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
 
 
 /* The dots/bullets/indicators */
@@ -743,4 +718,19 @@ footer {
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
+}
+
+/*----------- FOOTER --------------*/
+footer {
+  display: grid;
+  background-color: #144552ff;
+  color: white;
+  text-align: center;
+  padding: 2px;
+
+  border: 1px solid #322420;
+}
+
+* {
+  box-sizing: border-box;
 }
