@@ -35,6 +35,10 @@
  
 
 }
+#fifth {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 .cards, #cards2.grid{
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
@@ -43,6 +47,7 @@
   grid-template-columns: 1fr 1fr 1fr;
 
 }
+
 .calltoact {
   position: absolute;
   top: 1120px;
@@ -53,5 +58,4 @@
   color: #322420;
   background: #00787aff;
 }
-
 }
