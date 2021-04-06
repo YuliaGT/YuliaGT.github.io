@@ -610,6 +610,7 @@ input.submit {
 {
   position:relative;
  max-width: 400px;
+ 
 
   background-color:#00787aff;
   color:black;
@@ -621,6 +622,9 @@ input.submit {
   border-color:black;
 
 
+}
+#popup .top {
+  margin-left: 20px;
 }
 
 #popup:target
